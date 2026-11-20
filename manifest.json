@@ -1,0 +1,87 @@
+{
+  "format": "quanta-compact-formula-references",
+  "version": "1.0.0",
+  "schemaVersion": "3.0.0",
+  "sourceCommit": "99ae5619a30cd0a3e883ddd8da8c23f1199fa416",
+  "sourceUrl": "https://quanta-study.de/tafelwerk",
+  "publisher": "AM Creative Tech UG (haftungsbeschränkt)",
+  "license": "CC-BY-4.0",
+  "dataLanguage": "de",
+  "englishFormulaDataIncluded": false,
+  "count": 135,
+  "uniqueSlugs": 135,
+  "subjects": [
+    "ingenieurwesen"
+  ],
+  "counts": {
+    "ingenieurwesen": 135
+  },
+  "fieldAllowlist": [
+    "slug",
+    "name",
+    "latex",
+    "symbol",
+    "kategorie",
+    "kapitel",
+    "unterkategorie",
+    "bildungsniveaus",
+    "schwierigkeit",
+    "abiturRelevant",
+    "variablen",
+    "quellen",
+    "quellenLinks",
+    "url"
+  ],
+  "generatedFrom": {
+    "repository": "https://github.com/ammmcreativetech-dot/quanta-mint-formeln",
+    "coreDataSha256": "7041d45cb1f78791168ac3c197281bf33d7bf08c673658769844771cacd5905a"
+  },
+  "referenceIndex": null,
+  "checksumScope": "All declared repository artifacts except this manifest itself; workflows and Git metadata excluded",
+  "files": {
+    "CHANGELOG.md": {
+      "sha256": "e5facb32c1dbcac3d4e6960c17ec99ca8d13836a6fcd1dcab74c3f2687e6d4ab",
+      "bytes": 668
+    },
+    "CITATION.cff": {
+      "sha256": "de735d9cd0409ae5ae672cc5d1f8e046bdd8d1662dda50263584465ebaabed00",
+      "bytes": 721
+    },
+    "LICENSE": {
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657
+    },
+    "LICENSE-SCOPE.md": {
+      "sha256": "00b16fcfa99231311d117b424f58088a8e403788ed26b39e163f5104f0affef8",
+      "bytes": 1481
+    },
+    "README.md": {
+      "sha256": "9fee04333ab2cdf4c6d47fbf85903e08b9bd35a8c9d4a100fd62f4543f5b599e",
+      "bytes": 5038
+    },
+    "formeln.json": {
+      "sha256": "f50e479de9fd4ff2a01fea69002951bcef357a3fa66cded3e56dc701442aab32",
+      "bytes": 194240
+    },
+    "index.d.ts": {
+      "sha256": "e250426bcf56e006c260800549fc85017e56d3af601cd754c66c9a5bce98ef30",
+      "bytes": 1323
+    },
+    "index.js": {
+      "sha256": "6b84e47275038ec06bfc84b573c4bc3a33d475aba1035348d4455ce1472a1d87",
+      "bytes": 939
+    },
+    "package.json": {
+      "sha256": "af1d6e9816a394614456fbb39895686aab78caf92dcfe7f075d2e4aeea27f387",
+      "bytes": 1159
+    },
+    "schema.json": {
+      "sha256": "0ab931a2ad5c7ac57b5aeaf678b7db9127a30a24efc42723653e64d4fca1b867",
+      "bytes": 3486
+    },
+    "test/contract.test.cjs": {
+      "sha256": "8ccbdc423397b016f2ef141f79a5cc727f78834c3fa6ef7c76094c491b41556e",
+      "bytes": 3256
+    }
+  }
+}

@@ -1,0 +1,6113 @@
+[
+  {
+    "slug": "young-modul",
+    "name": "Young’scher Modul",
+    "latex": "E = \\frac{\\sigma}{\\varepsilon} = \\frac{F L_0}{A_0 \\Delta L}",
+    "symbol": "E = σ/ε = FL₀/(A₀ΔL)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeitslehre",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "E",
+        "bedeutung": "Young’scher Modul als Maß für die axiale Steifigkeit des Materials",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "σ",
+        "bedeutung": "Zugspannung, hier \\(\\frac{F}{A_{0}}\\)",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "ε",
+        "bedeutung": "Zugdehnung, hier \\(\\frac{\\Delta{}L}{L_{0}}\\)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "F",
+        "bedeutung": "Axiale Zugkraft senkrecht zum Querschnitt",
+        "einheit": "N"
+      },
+      {
+        "symbol": "A₀",
+        "bedeutung": "Ausgangsquerschnittsfläche des Prüfkörpers",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "L₀",
+        "bedeutung": "Ausgangslänge vor Belastung",
+        "einheit": "m"
+      },
+      {
+        "symbol": "ΔL",
+        "bedeutung": "Längenänderung unter Zugbelastung",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 1, §12.3 “Stress, Strain, and Elastic Modulus”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-1/pages/12-3-stress-strain-and-elastic-modulus"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/young-modul"
+  },
+  {
+    "slug": "reynolds-zahl",
+    "name": "Reynolds-Zahl",
+    "latex": "\\mathrm{Re} = \\frac{\\rho v L}{\\eta} = \\frac{vL}{\\nu}",
+    "symbol": "Re = ρvL/η = vL/ν",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömungsmechanik",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Re",
+        "bedeutung": "Reynolds-Zahl der betrachteten Strömung",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "ρ",
+        "bedeutung": "Dichte des Fluids",
+        "einheit": "kg/m³"
+      },
+      {
+        "symbol": "v",
+        "bedeutung": "Charakteristische Strömungsgeschwindigkeit",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Zur Geometrie passende charakteristische Länge",
+        "einheit": "m"
+      },
+      {
+        "symbol": "η",
+        "bedeutung": "Dynamische Viskosität",
+        "einheit": "Pa·s"
+      },
+      {
+        "symbol": "ν",
+        "bedeutung": "Kinematische Viskosität, \\(\\nu{}=\\frac{\\eta{}}{\\rho{}}\\)",
+        "einheit": "m²/s"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 1, §14.7 “Viscosity and Turbulence”, Gleichung 14.20 für Rohrströmung."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/reynolds-zahl"
+  },
+  {
+    "slug": "kirchhoff-knotenmaschen",
+    "name": "Kirchhoffsche Knoten- und Maschenregeln",
+    "latex": "\\sum I_{\\mathrm{in}}=\\sum I_{\\mathrm{out}}, \\qquad \\sum_{\\mathrm{Masche}}\\Delta V=0",
+    "symbol": "Σ I hinein = Σ I hinaus; Σ ΔV = 0",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "I",
+        "bedeutung": "Strom in einem Zweig des Knotens",
+        "einheit": "A"
+      },
+      {
+        "symbol": "ΔV",
+        "bedeutung": "Spannungsänderung über ein Bauteil in gewählter Umlaufrichtung",
+        "einheit": "V"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §10.3 “Kirchhoff’s Rules”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/10-3-kirchhoffs-rules"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kirchhoff-knotenmaschen"
+  },
+  {
+    "slug": "impuls-drehimpuls-bilanz",
+    "name": "Impuls- und Drehimpulsbilanz",
+    "latex": "\\Delta\\vec p=\\int_{t_1}^{t_2}\\vec F_{\\mathrm{ext}}dt, \\qquad \\Delta\\vec L=\\int_{t_1}^{t_2}\\vec\\tau_{\\mathrm{ext}}dt",
+    "symbol": "Δp = ∫Fext dt; ΔL = ∫τext dt",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Dynamik und Mechanik",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "p",
+        "bedeutung": "Linearer Gesamtimpuls des Systems",
+        "einheit": "kg·m/s"
+      },
+      {
+        "symbol": "Fext",
+        "bedeutung": "Resultierende äußere Kraft auf das System",
+        "einheit": "N"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Drehimpuls bezüglich eines gewählten Bezugspunkts",
+        "einheit": "kg·m²/s"
+      },
+      {
+        "symbol": "τext",
+        "bedeutung": "Resultierendes äußeres Drehmoment um denselben Bezugspunkt",
+        "einheit": "N·m"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 1, §9.2 “Impulse and Collisions”.",
+      "OpenStax, University Physics Volume 1, §11.3 “Conservation of Angular Momentum”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-1/pages/9-2-impulse-and-collisions",
+      "https://openstax.org/books/university-physics-volume-1/pages/11-3-conservation-of-angular-momentum"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/impuls-drehimpuls-bilanz"
+  },
+  {
+    "slug": "bernoulli-verlustgleichung",
+    "name": "Energiegleichung mit Verlusthöhe (erweiterte Bernoulli-Gleichung)",
+    "latex": "\\frac{p_1}{\\rho g}+\\alpha_1\\frac{v_1^2}{2g}+z_1+h_p=\\frac{p_2}{\\rho g}+\\alpha_2\\frac{v_2^2}{2g}+z_2+h_t+h_L",
+    "symbol": "p₁/ρg + α₁v₁²/2g + z₁ + hp = p₂/ρg + α₂v₂²/2g + z₂ + ht + hL",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömungsmechanik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "p",
+        "bedeutung": "Statischer Druck am Querschnitt",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "α",
+        "bedeutung": "Korrekturfaktor für das Geschwindigkeitsprofil",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "v",
+        "bedeutung": "Mittlere Strömungsgeschwindigkeit",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "z",
+        "bedeutung": "Höhe relativ zu einem gewählten Bezugsniveau",
+        "einheit": "m"
+      },
+      {
+        "symbol": "hp",
+        "bedeutung": "Von einer Pumpe an das Fluid abgegebene Förderhöhe",
+        "einheit": "m"
+      },
+      {
+        "symbol": "ht",
+        "bedeutung": "Vom Fluid an eine Turbine abgegebene Höhe",
+        "einheit": "m"
+      },
+      {
+        "symbol": "hL",
+        "bedeutung": "Irreversible Verluste zwischen den Querschnitten",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 1, §14.6 “Bernoulli’s Equation” (ideale Gültigkeitsgrenzen).",
+      "Penn State University, Mechanical Engineering, “The Energy Equation for Control Volumes” (Verlust- und Maschinenköpfe)."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation",
+      "https://www.me.psu.edu/cimbala/Learning/Fluid/CV_Energy/home.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/bernoulli-verlustgleichung"
+  },
+  {
+    "slug": "fourier-waermeleitung",
+    "name": "Fouriersches Wärmeleitungsgesetz",
+    "latex": "\\vec q=-k\\nabla T, \\qquad \\dot Q=-kA\\frac{dT}{dx}",
+    "symbol": "q⃗ = −k∇T; Q̇ = −kA·dT/dx",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärmeübertragung",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "q⃗",
+        "bedeutung": "Wärmeflussdichte als Vektor",
+        "einheit": "W/m²"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Wärmeleitfähigkeit des Materials",
+        "einheit": "W/(m·K)"
+      },
+      {
+        "symbol": "∇T",
+        "bedeutung": "Räumlicher Temperaturgradient",
+        "einheit": "K/m"
+      },
+      {
+        "symbol": "Q̇",
+        "bedeutung": "Wärmeübertragungsrate durch die Fläche",
+        "einheit": "W"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Querschnittsfläche senkrecht zum Wärmefluss",
+        "einheit": "m²"
+      }
+    ],
+    "quellen": [
+      "OpenStax, College Physics 2e, §14.5 “Conduction”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/college-physics-2e/pages/14-5-conduction"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/fourier-waermeleitung"
+  },
+  {
+    "slug": "euler-bernoulli-balken",
+    "name": "Euler-Bernoulli-Balken: Moment-Krümmungs-Beziehung",
+    "latex": "M(x)=EI\\,\\kappa(x)\\approx EI\\frac{d^2w}{dx^2}",
+    "symbol": "M = EIκ ≈ EI·w″",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Baustatik und Festigkeitslehre",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "M(x)",
+        "bedeutung": "Biegemoment entlang des Balkens",
+        "einheit": "N·m"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Young’scher Modul des Materials",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Flächenträgheitsmoment des Querschnitts um die Biegeachse",
+        "einheit": "m⁴"
+      },
+      {
+        "symbol": "κ(x)",
+        "bedeutung": "Krümmung der verformten Balkenachse",
+        "einheit": "1/m"
+      },
+      {
+        "symbol": "w(x)",
+        "bedeutung": "Querdurchbiegung entlang der Balkenkoordinate x",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 2.002 Mechanics and Materials II, Lecture 2 Euler-Bernoulli Beams, pp. 4–5."
+    ],
+    "quellenLinks": [
+      "https://www.ocw.mit.edu/courses/2-002-mechanics-and-materials-ii-spring-2004/bc25a56b5a91ad29ca5c7419616686f7_lec2.pdf#page=4"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/euler-bernoulli-balken"
+  },
+  {
+    "slug": "pid-regler-uebertragungsfunktion",
+    "name": "Idealer PID-Regler (Übertragungsfunktion)",
+    "latex": "C(s)=K_P+\\frac{K_I}{s}+K_Ds",
+    "symbol": "C(s) = KP + KI/s + KDs",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Regelungstechnik",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "C(s)",
+        "bedeutung": "Übertragungsfunktion des Reglers; ihr Einheitenverhältnis folgt aus Stellgröße u und Fehler e",
+        "einheit": "Einheit u / Einheit e"
+      },
+      {
+        "symbol": "KP",
+        "bedeutung": "Proportionalverstärkung mit derselben Einheit wie C(s)",
+        "einheit": "Einheit u / Einheit e"
+      },
+      {
+        "symbol": "KI",
+        "bedeutung": "Integralverstärkung mit Einheit C(s) pro Sekunde",
+        "einheit": "Einheit u / (Einheit e · s)"
+      },
+      {
+        "symbol": "KD",
+        "bedeutung": "Differentialverstärkung mit Einheit C(s) mal Sekunde",
+        "einheit": "Einheit u · s / Einheit e"
+      },
+      {
+        "symbol": "s",
+        "bedeutung": "Laplace-Variable bei Nullanfangsbedingungen",
+        "einheit": "1/s"
+      }
+    ],
+    "quellen": [
+      "MathWorks: Proportional-Integral-Derivative (PID) Controllers"
+    ],
+    "quellenLinks": [
+      "https://www.mathworks.com/help/control/ug/proportional-integral-derivative-pid-controllers.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/pid-regler-uebertragungsfunktion"
+  },
+  {
+    "slug": "statisches-gleichgewicht",
+    "name": "Gleichgewichtsbedingungen der Statik",
+    "latex": "\\sum_i \\vec F_i=\\vec 0,\\quad \\sum_i M_{i,O}=0",
+    "symbol": "ΣF = 0; ΣMₒ = 0",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Fᵢ",
+        "bedeutung": "Äußere Kraft einschließlich Lagerreaktion",
+        "einheit": "N"
+      },
+      {
+        "symbol": "Mᵢ,ₒ",
+        "bedeutung": "Moment der Kraft um den Bezugspunkt O",
+        "einheit": "N·m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Unified Engineering: Materials and Structures, Gleichgewichts- und Balkenmodellierung."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/pages/materials-structures/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/statisches-gleichgewicht"
+  },
+  {
+    "slug": "normalspannung-zug",
+    "name": "Mittlere Normalspannung bei axialer Kraft",
+    "latex": "\\sigma_\\mathrm{m} = \\frac{F}{A}",
+    "symbol": "σₘ = F/A",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σₘ",
+        "bedeutung": "Mittlere Normalspannung im Querschnitt",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "F",
+        "bedeutung": "Axiale Normalkraft senkrecht zum Querschnitt",
+        "einheit": "N"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Belastete Querschnittsfläche",
+        "einheit": "m²"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Unified Engineering: Materials and Structures, axial stress and structural members."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/pages/materials-structures/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/normalspannung-zug"
+  },
+  {
+    "slug": "poissonzahl",
+    "name": "Poisson-Zahl",
+    "latex": "\\nu=-\\frac{\\varepsilon_\\mathrm{quer}}{\\varepsilon_\\mathrm{axial}}",
+    "symbol": "ν = −εquer/εaxial",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ν",
+        "bedeutung": "Poisson-Zahl des Werkstoffs im betrachteten Bereich",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "εquer",
+        "bedeutung": "Dehnung senkrecht zur Belastungsrichtung",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "εaxial",
+        "bedeutung": "Dehnung in Belastungsrichtung",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "Engineering LibreTexts (Roylance), Constitutive Relations, linear-elastic strain and Poisson ratio."
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Mechanics_of_Materials_(Roylance)/03%3A_General_Concepts_of_Stress_and_Strain/3.04%3A_Constitutive_Relations"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/poissonzahl"
+  },
+  {
+    "slug": "thermische-dehnung",
+    "name": "Lineare thermische Längenänderung",
+    "latex": "\\Delta L=\\alpha L_0\\Delta T",
+    "symbol": "ΔL = αL₀ΔT",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ΔL",
+        "bedeutung": "Thermische Längenänderung",
+        "einheit": "m"
+      },
+      {
+        "symbol": "α",
+        "bedeutung": "Linearer Wärmeausdehnungskoeffizient",
+        "einheit": "K⁻¹"
+      },
+      {
+        "symbol": "L₀",
+        "bedeutung": "Ausgangslänge",
+        "einheit": "m"
+      },
+      {
+        "symbol": "ΔT",
+        "bedeutung": "Temperaturänderung",
+        "einheit": "K"
+      }
+    ],
+    "quellen": [
+      "Engineering LibreTexts (Roylance), Constitutive Relations, thermal expansion."
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Mechanics_of_Materials_(Roylance)/03%3A_General_Concepts_of_Stress_and_Strain/3.04%3A_Constitutive_Relations"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/thermische-dehnung"
+  },
+  {
+    "slug": "biegemoment-spannung",
+    "name": "Biegespannung im Euler-Bernoulli-Balken",
+    "latex": "\\sigma_x(y)=-\\frac{M y}{I}",
+    "symbol": "σₓ(y) = −My/I",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σₓ",
+        "bedeutung": "Längsnormalspannung im Abstand y von der Neutralachse",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "M",
+        "bedeutung": "Biegemoment am betrachteten Querschnitt",
+        "einheit": "N·m"
+      },
+      {
+        "symbol": "y",
+        "bedeutung": "Signierter Abstand von der Neutralachse",
+        "einheit": "m"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Flächenträgheitsmoment zur Biegeachse",
+        "einheit": "m⁴"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Unified Engineering: Materials and Structures, bending stress σ=−My/I."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/pages/materials-structures/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/biegemoment-spannung"
+  },
+  {
+    "slug": "balken-querkraftspannung",
+    "name": "Schubspannung im Balkenquerschnitt",
+    "latex": "\\tau=\\frac{VQ}{I b}",
+    "symbol": "τ = VQ/(Ib)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "τ",
+        "bedeutung": "Lokale Schubspannung an der betrachteten Höhe",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "V",
+        "bedeutung": "Querkraft im Balkenschnitt",
+        "einheit": "N"
+      },
+      {
+        "symbol": "Q",
+        "bedeutung": "Statisches Flächenmoment des Teilquerschnitts zur Neutralachse",
+        "einheit": "m³"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Flächenträgheitsmoment des Gesamtquerschnitts",
+        "einheit": "m⁴"
+      },
+      {
+        "symbol": "b",
+        "bedeutung": "Lokale Querschnittsbreite auf der betrachteten Höhe",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Unified Engineering, M6 Shear Stresses in Simple Beam Theory, pp. 6–8."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/f66f80cd5fbd5cf8295d7b1e1e28a368_gm5_8_notes.pdf#page=6"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/balken-querkraftspannung"
+  },
+  {
+    "slug": "torsionsschubspannung",
+    "name": "Torsionsschubspannung im Kreisquerschnitt",
+    "latex": "\\tau(r)=\\frac{T r}{J}",
+    "symbol": "τ(r) = Tr/J",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "τ(r)",
+        "bedeutung": "Torsionsschubspannung im Radius r",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Torsionsmoment um die Stabachse",
+        "einheit": "N·m"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Radialer Abstand von der Stabachse",
+        "einheit": "m"
+      },
+      {
+        "symbol": "J",
+        "bedeutung": "Polares Flächenträgheitsmoment des Kreisquerschnitts",
+        "einheit": "m⁴"
+      }
+    ],
+    "quellen": [
+      "Engineering LibreTexts, Beam Bending, Buckling, and Torsion, circular-shaft torsional stress."
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Courses/California_State_Polytechnic_University_Humboldt/Mechanical_Behavior_of_Material/Chapter_8%3A_Beam_Bending%2C_Buckling%2C_and_Torsion"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/torsionsschubspannung"
+  },
+  {
+    "slug": "torsionswinkel-kreiswelle",
+    "name": "Verdrehwinkel eines Kreisstabs",
+    "latex": "\\varphi=\\frac{T L}{GJ}",
+    "symbol": "φ = TL/(GJ)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "φ",
+        "bedeutung": "Relative Verdrehung der Querschnitte",
+        "einheit": "rad"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Konstantes Torsionsmoment",
+        "einheit": "N·m"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Axiale Länge des betrachteten Wellenabschnitts",
+        "einheit": "m"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Schubmodul des Materials",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "J",
+        "bedeutung": "Polares Flächenträgheitsmoment des Kreis- oder Kreisringquerschnitts",
+        "einheit": "m⁴"
+      }
+    ],
+    "quellen": [
+      "David Roylance, MIT: Shear and Torsion, 23June2000"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/3-91-mechanical-behavior-of-plastics-spring-2007/7cef9270278ccb2fef0671826f176a6b_07_torsion.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/torsionswinkel-kreiswelle"
+  },
+  {
+    "slug": "flaechen-parallelachsensatz",
+    "name": "Steinerscher Satz für Flächenträgheitsmomente",
+    "latex": "I=I_c+A d^2",
+    "symbol": "I = Ic + Ad²",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "I",
+        "bedeutung": "Flächenträgheitsmoment um die verschobene Achse",
+        "einheit": "m⁴"
+      },
+      {
+        "symbol": "Ic",
+        "bedeutung": "Flächenträgheitsmoment um parallele Schwerpunktachse",
+        "einheit": "m⁴"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Querschnittsfläche",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Abstand der beiden parallelen Achsen",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 1.050 Solid Mechanics, Stresses: Beams in Bending."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/8f0200f4ca3236383a2ef048c7ec4c40_emech9_04.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/flaechen-parallelachsensatz"
+  },
+  {
+    "slug": "euler-knicklast",
+    "name": "Euler-Knicklast einer schlanken Stütze",
+    "latex": "F_\\mathrm{cr}=\\frac{\\pi^2 E I}{(K L)^2}",
+    "symbol": "Fcr = π²EI/(KL)²",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Fcr",
+        "bedeutung": "Ideale elastische kritische Knicklast",
+        "einheit": "N"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Young-Modul",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Flächenträgheitsmoment um die Biegeachse des betrachteten Knickmodus; mit dessen wirksamer Länge KL verwenden",
+        "einheit": "m⁴"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "Effektivlängenfaktor aus den idealisierten Endbedingungen",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Stützenlänge",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "Engineering LibreTexts, Beam Bending, Buckling, and Torsion, Euler buckling."
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Courses/California_State_Polytechnic_University_Humboldt/Mechanical_Behavior_of_Material/Chapter_8%3A_Beam_Bending%2C_Buckling%2C_and_Torsion"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/euler-knicklast"
+  },
+  {
+    "slug": "duennwandiger-druckbehaelter",
+    "name": "Umfangsspannung im dünnwandigen Zylinder",
+    "latex": "\\sigma_\\theta=\\frac{p r}{t}",
+    "symbol": "σθ = pr/t",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σθ",
+        "bedeutung": "Umfangs- oder Ringspannung in der Zylinderwand",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "p",
+        "bedeutung": "Innendruck relativ zum Außendruck",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Mittlerer Zylinderradius",
+        "einheit": "m"
+      },
+      {
+        "symbol": "t",
+        "bedeutung": "Wanddicke",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "David Roylance: Pressure Vessels, MIT, 2001"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/3-91-mechanical-behavior-of-plastics-spring-2007/0be49aef0263a94601f18b28c64af705_06_pv.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/duennwandiger-druckbehaelter"
+  },
+  {
+    "slug": "von-mises-vergleichsspannung",
+    "name": "Von-Mises-Vergleichsspannung im ebenen Spannungszustand",
+    "latex": "\\sigma_\\mathrm{v}=\\sqrt{\\sigma_x^2-\\sigma_x\\sigma_y+\\sigma_y^2+3\\tau_{xy}^2}",
+    "symbol": "σv = √(σx² − σxσy + σy² + 3τxy²)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σv",
+        "bedeutung": "Von-Mises-Vergleichsspannung",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "σx, σy",
+        "bedeutung": "Normalspannungen in den Ebenenrichtungen",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "τxy",
+        "bedeutung": "Schubspannung in der Ebene",
+        "einheit": "Pa"
+      }
+    ],
+    "quellen": [
+      "Jönköping University Applied Mechanics 8.10: distortion energy, principal-stress and plane-stress von Mises forms"
+    ],
+    "quellenLinks": [
+      "https://mechanics.ju.se/SolidMechanics/YieldCriteria.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/von-mises-vergleichsspannung"
+  },
+  {
+    "slug": "volumenstrom-kontinuitaet",
+    "name": "Volumenstrom und Kontinuität inkompressibler Strömung",
+    "latex": "Q=A\\bar v,\\qquad A_1\\bar v_1=A_2\\bar v_2",
+    "symbol": "Q = A v̄; A₁v̄₁ = A₂v̄₂",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Q",
+        "bedeutung": "Volumenstrom durch den Querschnitt",
+        "einheit": "m³/s"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Querschnittsfläche senkrecht zur mittleren Strömung",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "v̄",
+        "bedeutung": "Mittlere Normalgeschwindigkeit",
+        "einheit": "m/s"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 1, §14.5 “Fluid Dynamics”, continuity equation."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-1/pages/14-5-fluid-dynamics"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/volumenstrom-kontinuitaet"
+  },
+  {
+    "slug": "massenstrom-kontinuitaet",
+    "name": "Massenstrom durch einen Querschnitt",
+    "latex": "\\dot m=\\rho A\\bar v",
+    "symbol": "ṁ = ρA v̄",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ṁ",
+        "bedeutung": "Masse pro Zeit durch den Kontrollquerschnitt",
+        "einheit": "kg/s"
+      },
+      {
+        "symbol": "ρ",
+        "bedeutung": "Fluiddichte am Querschnitt",
+        "einheit": "kg/m³"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Querschnittsfläche",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "v̄",
+        "bedeutung": "Mittlere Normalgeschwindigkeit",
+        "einheit": "m/s"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 1, §14.5 “Fluid Dynamics”, mass continuity."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-1/pages/14-5-fluid-dynamics"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/massenstrom-kontinuitaet"
+  },
+  {
+    "slug": "hydraulischer-durchmesser",
+    "name": "Hydraulischer Durchmesser",
+    "latex": "D_h=\\frac{4A}{P_\\mathrm{benetzt}}",
+    "symbol": "Dh = 4A/Pbenetzt",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Dh",
+        "bedeutung": "Hydraulischer Durchmesser",
+        "einheit": "m"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Durchströmte Querschnittsfläche",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "Pbenetzt",
+        "bedeutung": "Benetzter Umfang des Strömungsquerschnitts",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "Ansys Fluent 2025 R1 Tutorial Guide, Chapter 5 Mixing Elbow, hydraulic-diameter definition."
+    ],
+    "quellenLinks": [
+      "https://ansyshelp.ansys.com/public/views/secured/corp/v251/en/flu_tg/flu_tg_elbow_mesh_wtc.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hydraulischer-durchmesser"
+  },
+  {
+    "slug": "darcy-weisbach-rohrreibung",
+    "name": "Darcy-Weisbach-Gleichung für Rohrreibungsverlust",
+    "latex": "h_f=f_D\\frac{L}{D}\\frac{\\bar v^2}{2g}",
+    "symbol": "hf = fD(L/D)(v̄²/2g)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "hf",
+        "bedeutung": "Verteilte Reibungsverlusthöhe",
+        "einheit": "m"
+      },
+      {
+        "symbol": "fD",
+        "bedeutung": "Darcy-Reibungsbeiwert",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Rohrlänge",
+        "einheit": "m"
+      },
+      {
+        "symbol": "D",
+        "bedeutung": "Innendurchmesser des hier betrachteten Kreisrohrs",
+        "einheit": "m"
+      },
+      {
+        "symbol": "v̄",
+        "bedeutung": "Mittlere Strömungsgeschwindigkeit",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "g",
+        "bedeutung": "Erdbeschleunigung",
+        "einheit": "m/s²"
+      }
+    ],
+    "quellen": [
+      "Engineering LibreTexts, Fluid Mechanics, Darcy-Weisbach relation and pipe head loss."
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Bookshelves/Civil_Engineering/Slurry_Transport_(Miedema)/07%3A_The_Delft_Head_Loss_and_Limit_Deposit_Velocity_Framework/7.03%3A_A_Head_Loss_Model_for_Fixed_Bed_Slurry_Transport"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/darcy-weisbach-rohrreibung"
+  },
+  {
+    "slug": "einzelverlusthoehe",
+    "name": "Einzelverlusthöhe an Formstücken",
+    "latex": "h_\\zeta=\\zeta\\frac{\\bar v^2}{2g}",
+    "symbol": "hζ = ζv̄²/(2g)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "hζ",
+        "bedeutung": "Lokale Verlusthöhe",
+        "einheit": "m"
+      },
+      {
+        "symbol": "ζ",
+        "bedeutung": "Geometrie- und zustandsabhängiger Einzelverlustbeiwert",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "v̄",
+        "bedeutung": "Referenzgeschwindigkeit an der festgelegten Querschnittsstelle",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "g",
+        "bedeutung": "Erdbeschleunigung",
+        "einheit": "m/s²"
+      }
+    ],
+    "quellen": [
+      "Penn State University, Mechanical Engineering, Control-volume energy equation and minor losses."
+    ],
+    "quellenLinks": [
+      "https://www.me.psu.edu/cimbala/Learning/Fluid/CV_Energy/home.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/einzelverlusthoehe"
+  },
+  {
+    "slug": "hagen-poiseuille-gesetz",
+    "name": "Hagen-Poiseuille-Gesetz für laminare Rohrströmung",
+    "latex": "Q=\\frac{\\pi r^4\\Delta p}{8\\eta L}",
+    "symbol": "Q = πr⁴Δp/(8ηL)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Q",
+        "bedeutung": "Volumenstrom durch das Rohr",
+        "einheit": "m³/s"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Innenradius des Rohrs",
+        "einheit": "m"
+      },
+      {
+        "symbol": "Δp",
+        "bedeutung": "Druckabfall entlang des Rohres",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "η",
+        "bedeutung": "Dynamische Viskosität",
+        "einheit": "Pa·s"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Rohrlänge",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 1, §14.7 “Viscosity and Turbulence”, laminar tube flow."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hagen-poiseuille-gesetz"
+  },
+  {
+    "slug": "hydraulische-leistung",
+    "name": "Hydraulische Leistung einer Strömungsmaschine",
+    "latex": "P_p=\\Delta p\\,Q,\\qquad P_h=\\rho gQH",
+    "symbol": "Pp = Δp·Q; Ph = ρgQH",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömungsmaschinen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Pp, Ph",
+        "bedeutung": "Druckleistungsanteil Pp beziehungsweise gesamte an das Fluid übertragene Maschinenleistung Ph",
+        "einheit": "W"
+      },
+      {
+        "symbol": "Δp",
+        "bedeutung": "Druckdifferenz zwischen Ein- und Austritt",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "Q",
+        "bedeutung": "Volumenstrom",
+        "einheit": "m³/s"
+      },
+      {
+        "symbol": "ρ",
+        "bedeutung": "Fluiddichte",
+        "einheit": "kg/m³"
+      },
+      {
+        "symbol": "H",
+        "bedeutung": "Gesamte vorgegebene Maschinen-Förderhöhe; nur bei passenden gleichen Lage- und Geschwindigkeitsanteilen gleich Δp/(ρg)",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "Penn State University, Mechanical Engineering, control-volume energy equation."
+    ],
+    "quellenLinks": [
+      "https://www.me.psu.edu/cimbala/Learning/Fluid/CV_Energy/home.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hydraulische-leistung"
+  },
+  {
+    "slug": "balkenlast-querkraft-moment",
+    "name": "Zusammenhang zwischen Streckenlast, Querkraft und Moment",
+    "latex": "\\frac{dV}{dx}=-q(x),\\qquad \\frac{dM}{dx}=V(x)",
+    "symbol": "V′ = −q; M′ = V",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Baustatik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "q(x)",
+        "bedeutung": "Verteilte Querlast pro Balkenlänge nach gewählter Vorzeichenkonvention",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "V(x)",
+        "bedeutung": "Innere Querkraft am Schnitt",
+        "einheit": "N"
+      },
+      {
+        "symbol": "M(x)",
+        "bedeutung": "Inneres Biegemoment am Schnitt",
+        "einheit": "N·m"
+      },
+      {
+        "symbol": "x",
+        "bedeutung": "Koordinate entlang der Balkenachse",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Unified Engineering: Materials and Structures, shear forces and bending moments in beams."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/pages/materials-structures/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/balkenlast-querkraft-moment"
+  },
+  {
+    "slug": "schubmodul",
+    "name": "Schubmodul und Schubgesetz",
+    "latex": "G=\\frac{\\tau}{\\gamma}",
+    "symbol": "G = τ/γ",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "G",
+        "bedeutung": "Schubmodul des Materials",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "τ",
+        "bedeutung": "Schubspannung",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "γ",
+        "bedeutung": "Technische Schubdehnung bzw. kleine Scherung",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Structural Mechanics, shear stress and shear modulus."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/22-312-engineering-of-nuclear-reactors-fall-2015/eb49bc4f3e701be60ca651c5a109312f_MIT22_312F15_note_L4.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/schubmodul"
+  },
+  {
+    "slug": "hauptspannungen-ebener-spannungszustand",
+    "name": "Hauptspannungen im ebenen Spannungszustand",
+    "latex": "\\sigma_{I, II}=\\frac{\\sigma_x+\\sigma_y}{2}\\pm\\sqrt{\\left(\\frac{\\sigma_x-\\sigma_y}{2}\\right)^2+\\tau_{xy}^2}",
+    "symbol": "σI, II = (σx+σy)/2 ± √[((σx−σy)/2)²+τxy²]",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σI, σII",
+        "bedeutung": "Größerer und kleinerer Eigenwert nur innerhalb der Ebene; der dritte Hauptwert ist bei echtem plane stress 0.",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "σx, σy",
+        "bedeutung": "Normalspannungen im gewählten Koordinatensystem",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "τxy",
+        "bedeutung": "Schubspannung im gewählten Koordinatensystem",
+        "einheit": "Pa"
+      }
+    ],
+    "quellen": [
+      "Jönköping University Applied Mechanics 8.8: Mohr circle, principal angle and the third value in plane stress"
+    ],
+    "quellenLinks": [
+      "https://mechanics.ju.se/SolidMechanics/MohrsCircle.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hauptspannungen-ebener-spannungszustand"
+  },
+  {
+    "slug": "elastische-verformungsenergie-dichte",
+    "name": "Elastische Verformungsenergiedichte bei einachsiger Spannung",
+    "latex": "u=\\frac{1}{2}\\sigma\\varepsilon=\\frac{\\sigma^2}{2E}=\\frac{1}{2}E\\varepsilon^2",
+    "symbol": "u = ½σε = σ²/(2E) = ½Eε²",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "u",
+        "bedeutung": "Gespeicherte elastische Energie pro Volumen",
+        "einheit": "J/m³"
+      },
+      {
+        "symbol": "σ",
+        "bedeutung": "Einachsige Normalspannung",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "ε",
+        "bedeutung": "Einachsige Dehnung",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Young-Modul im linearen Bereich",
+        "einheit": "Pa"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Unified Engineering: Materials and Structures, elastic strain energy."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/1f1b4e82bae2ff8ce609bc96fe20eedb_sprh04.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/elastische-verformungsenergie-dichte"
+  },
+  {
+    "slug": "schraubenfeder-steifigkeit",
+    "name": "Federsteifigkeit einer zylindrischen Schraubenfeder",
+    "latex": "k=\\frac{Gd^4}{8D^3N}",
+    "symbol": "k = Gd⁴/(8D³N)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-maschinenelemente",
+    "unterkategorie": "Maschinenelemente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "k",
+        "bedeutung": "Axiale Federsteifigkeit",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Schubmodul des Federdrahts",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Drahtdurchmesser",
+        "einheit": "m"
+      },
+      {
+        "symbol": "D",
+        "bedeutung": "Mittlerer Windungsdurchmesser",
+        "einheit": "m"
+      },
+      {
+        "symbol": "N",
+        "bedeutung": "Zahl aktiver Windungen",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "Jönköping University Applied Mechanics9.15, equations9.15.6–9.15.9: close-coiled spring torsion and rate"
+    ],
+    "quellenLinks": [
+      "https://mechanics.ju.se/MachineElements/springs.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/schraubenfeder-steifigkeit"
+  },
+  {
+    "slug": "konvektiver-waermeuebergang",
+    "name": "Newtonsches Abkühlungsgesetz für Konvektion",
+    "latex": "\\dot Q=hA(T_s-T_\\infty)",
+    "symbol": "Q̇ = hA(Ts − T∞)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Q̇",
+        "bedeutung": "Wärmeübertragungsrate von der Oberfläche zum Fluid",
+        "einheit": "W"
+      },
+      {
+        "symbol": "h",
+        "bedeutung": "Konvektiver Wärmeübergangskoeffizient für die konkrete Strömung",
+        "einheit": "W/(m²·K)"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Wärmeübertragende Oberfläche",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "Ts, T∞",
+        "bedeutung": "Oberflächen- und Fluidtemperatur außerhalb der Grenzschicht",
+        "einheit": "K"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Nano-to-Macro Transport Processes, Newton’s law of cooling."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-57-nano-to-macro-transport-processes-spring-2012/2e4ecaa5cf55f03bcefbc8ccce79aed6_MIT2_57S12_lec_notes_2004.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/konvektiver-waermeuebergang"
+  },
+  {
+    "slug": "waermediffusivitaet",
+    "name": "Temperaturleitfähigkeit",
+    "latex": "a=\\frac{k}{\\rho c_p}",
+    "symbol": "a = k/(ρcp)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "a",
+        "bedeutung": "Temperaturleitfähigkeit des Materials",
+        "einheit": "m²/s"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Wärmeleitfähigkeit",
+        "einheit": "W/(m·K)"
+      },
+      {
+        "symbol": "ρ",
+        "bedeutung": "Dichte",
+        "einheit": "kg/m³"
+      },
+      {
+        "symbol": "cp",
+        "bedeutung": "Spezifische Wärmekapazität bei konstantem Druck",
+        "einheit": "J/(kg·K)"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Heat Transfer, heat diffusion equation and thermal diffusivity."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/e32f70f7e00f34953447b606cea0421f_MIT2_051F15_EqnSheet_Q2_v3.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/waermediffusivitaet"
+  },
+  {
+    "slug": "biot-zahl",
+    "name": "Biot-Zahl für transiente Wärmeleitung",
+    "latex": "\\mathrm{Bi}=\\frac{hL_c}{k}",
+    "symbol": "Bi = hLc/k",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Bi",
+        "bedeutung": "Biot-Zahl",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "h",
+        "bedeutung": "Konvektiver Wärmeübergangskoeffizient",
+        "einheit": "W/(m²·K)"
+      },
+      {
+        "symbol": "Lc",
+        "bedeutung": "Charakteristische Länge, häufig Volumen/Oberfläche",
+        "einheit": "m"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Wärmeleitfähigkeit des Festkörpers",
+        "einheit": "W/(m·K)"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Heat Transfer, Biot number and lumped parameter model."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/e32f70f7e00f34953447b606cea0421f_MIT2_051F15_EqnSheet_Q2_v3.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/biot-zahl"
+  },
+  {
+    "slug": "fourier-zahl-waermeleitung",
+    "name": "Fourier-Zahl bei instationärer Wärmeleitung",
+    "latex": "\\mathrm{Fo}=\\frac{a t}{L_c^2}",
+    "symbol": "Fo = at/Lc²",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Fo",
+        "bedeutung": "Fourier-Zahl",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Temperaturleitfähigkeit",
+        "einheit": "m²/s"
+      },
+      {
+        "symbol": "t",
+        "bedeutung": "Vergangene Zeit",
+        "einheit": "s"
+      },
+      {
+        "symbol": "Lc",
+        "bedeutung": "Charakteristische Leitungslänge",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Heat Transfer, Fourier number."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/e32f70f7e00f34953447b606cea0421f_MIT2_051F15_EqnSheet_Q2_v3.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/fourier-zahl-waermeleitung"
+  },
+  {
+    "slug": "lumped-kapazitaetsmodell",
+    "name": "Lumped-Capacitance-Modell der Körpertemperatur",
+    "latex": "\\frac{T(t)-T_\\infty}{T_i-T_\\infty}=e^{-hAt/(\\rho V c_p)}",
+    "symbol": "(T−T∞)/(Ti−T∞) = exp[−hAt/(ρVcp)]",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "T(t)",
+        "bedeutung": "Zeitabhängige Körpertemperatur",
+        "einheit": "K"
+      },
+      {
+        "symbol": "T∞",
+        "bedeutung": "Umgebungstemperatur",
+        "einheit": "K"
+      },
+      {
+        "symbol": "Ti",
+        "bedeutung": "Anfangstemperatur bei \\(t=0\\)",
+        "einheit": "K"
+      },
+      {
+        "symbol": "hA",
+        "bedeutung": "Konvektive Wärmeleitfähigkeit an der Oberfläche",
+        "einheit": "W/K"
+      },
+      {
+        "symbol": "ρVcp",
+        "bedeutung": "Gesamte Wärmekapazität des Körpers im lumped Modell",
+        "einheit": "J/K"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Heat Transfer, lumped capacitance model."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/e32f70f7e00f34953447b606cea0421f_MIT2_051F15_EqnSheet_Q2_v3.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/lumped-kapazitaetsmodell"
+  },
+  {
+    "slug": "logarithmische-mittlere-temperaturdifferenz",
+    "name": "Logarithmische mittlere Temperaturdifferenz im Wärmetauscher",
+    "latex": "L(a, b)=\\frac{a-b}{\\ln(a/b)}\\ (a\\ne b),\\quad L(a, a)=a,\\quad a, b>0;\\qquad\\dot Q=UA L",
+    "symbol": "LMTD = (a−b)/ln(a/b); L(a, a)=a; Q̇=UA L",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "a, b",
+        "bedeutung": "Positive lokale Enddifferenzen heiß minus kalt, anordnungsgerecht gepaart",
+        "einheit": "K"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Logarithmisches Mittel mit L(a, a)=a",
+        "einheit": "K"
+      },
+      {
+        "symbol": "U",
+        "bedeutung": "Positiver Gesamtwärmedurchgangskoeffizient auf der gewählten Fläche",
+        "einheit": "W/(m²·K)"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Positive Fläche passend zur U-Basis",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "Q̇",
+        "bedeutung": "Positiver übertragener Wärmestrom heiß nach kalt",
+        "einheit": "W"
+      }
+    ],
+    "quellen": [
+      "MIT Thermodynamics and Propulsion, sections18.5.1–18.5.2: local heat balances, logarithmic integration and terminal pairing",
+      "ASHRAE Handbook2025 Fundamentals, chapter4 section5: Cr/NTU, phase-change limit, LMTD assumptions and UA area basis"
+    ],
+    "quellenLinks": [
+      "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node131.html",
+      "https://handbook.ashrae.org/Handbooks/F25/SI/f25_ch04/f25_ch04_si.aspx"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/logarithmische-mittlere-temperaturdifferenz"
+  },
+  {
+    "slug": "isentropes-idealgasgesetz",
+    "name": "Isentrope Zustandsänderung des idealen Gases",
+    "latex": "pV^\\gamma=\\mathrm{const.},\\quad TV^{\\gamma-1}=\\mathrm{const.}",
+    "symbol": "pVγ = const.; TVγ−1 = const.",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "p",
+        "bedeutung": "Absoluter Gasdruck",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "V",
+        "bedeutung": "Gasvolumen",
+        "einheit": "m³"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Absolute Temperatur",
+        "einheit": "K"
+      },
+      {
+        "symbol": "γ",
+        "bedeutung": "Verhältnis der Wärmekapazitäten \\(\\frac{cp}{cv}\\)",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §3.6 “Adiabatic Processes for an Ideal Gas”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/3-6-adiabatic-processes-for-an-ideal-gas"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/isentropes-idealgasgesetz"
+  },
+  {
+    "slug": "isentropenwirkungsgrad-verdichter",
+    "name": "Isentroper Wirkungsgrad eines Verdichters",
+    "latex": "\\eta_{is,c}=\\frac{h_{2s}-h_1}{h_2-h_1}",
+    "symbol": "ηis,c = (h₂s−h₁)/(h₂−h₁)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ηis,c",
+        "bedeutung": "Isentroper Wirkungsgrad des Verdichters",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "h1",
+        "bedeutung": "Spezifische Einlassenthalpie",
+        "einheit": "J/kg"
+      },
+      {
+        "symbol": "h2s",
+        "bedeutung": "Enthalpie des ideal isentropen Endzustands bei Austrittsdruck",
+        "einheit": "J/kg"
+      },
+      {
+        "symbol": "h2",
+        "bedeutung": "Tatsächliche spezifische Auslassenthalpie",
+        "einheit": "J/kg"
+      }
+    ],
+    "quellen": [
+      "ASHRAE Systems and Equipment 2020 IP, Chapter 38 Compressors, Compressor Efficiency."
+    ],
+    "quellenLinks": [
+      "https://handbook.ashrae.org/Handbooks/S20/IP/S20_Ch38/S20_ch38_ip.aspx"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/isentropenwirkungsgrad-verdichter"
+  },
+  {
+    "slug": "spannungsteiler",
+    "name": "Spannungsteiler aus zwei Serienwiderständen",
+    "latex": "U_\\mathrm{out}=U_\\mathrm{in}\\frac{R_2}{R_1+R_2}",
+    "symbol": "Uout = Uin·R₂/(R₁+R₂)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Uout",
+        "bedeutung": "Ausgangsspannung über dem unteren Widerstand R₂",
+        "einheit": "V"
+      },
+      {
+        "symbol": "Uin",
+        "bedeutung": "Gesamtspannung über der Serienkombination",
+        "einheit": "V"
+      },
+      {
+        "symbol": "R₁, R₂",
+        "bedeutung": "Serienwiderstände; Ausgang wird über R₂ abgegriffen",
+        "einheit": "Ω"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, voltage-divider circuit example."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/10-additional-problems"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/spannungsteiler"
+  },
+  {
+    "slug": "rc-ladeentladung",
+    "name": "Zeitverlauf eines RC-Ladevorgangs",
+    "latex": "U_C(t)=U_0(1-e^{-t/(RC)}),\\qquad \\tau=RC",
+    "symbol": "UC(t)=U₀(1−e⁻ᵗ/ᴿᶜ); τ=RC",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "UC(t)",
+        "bedeutung": "Kondensatorspannung zum Zeitpunkt t",
+        "einheit": "V"
+      },
+      {
+        "symbol": "U₀",
+        "bedeutung": "Konstante ideale Quellspannung",
+        "einheit": "V"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Gesamtserienwiderstand",
+        "einheit": "Ω"
+      },
+      {
+        "symbol": "C",
+        "bedeutung": "Kapazität",
+        "einheit": "F"
+      },
+      {
+        "symbol": "τ",
+        "bedeutung": "RC-Zeitkonstante",
+        "einheit": "s"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §10.5 “RC Circuits”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/10-5-rc-circuits"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/rc-ladeentladung"
+  },
+  {
+    "slug": "rl-stromtransient",
+    "name": "Stromanstieg im RL-Kreis",
+    "latex": "i(t)=\\frac{U_0}{R}(1-e^{-tR/L}),\\qquad \\tau=\\frac{L}{R}",
+    "symbol": "i(t)=(U₀/R)(1−e⁻ᵗᴿ/ᴸ); τ=L/R",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "i(t)",
+        "bedeutung": "Strom zum Zeitpunkt t nach dem Einschalten",
+        "einheit": "A"
+      },
+      {
+        "symbol": "U₀",
+        "bedeutung": "Konstante DC-Quellspannung",
+        "einheit": "V"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Gesamtserienwiderstand",
+        "einheit": "Ω"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Induktivität",
+        "einheit": "H"
+      },
+      {
+        "symbol": "τ",
+        "bedeutung": "Induktive Zeitkonstante \\(\\frac{L}{R}\\)",
+        "einheit": "s"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §14.4 “RL Circuits”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/rl-stromtransient"
+  },
+  {
+    "slug": "rlc-impedanz-serienschaltung",
+    "name": "Impedanz einer RLC-Serienschaltung",
+    "latex": "Z=\\sqrt{R^2+(\\omega L-1/(\\omega C))^2}",
+    "symbol": "Z = √[R² + (ωL − 1/(ωC))²]",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Z",
+        "bedeutung": "Betrag der komplexen Serienimpedanz",
+        "einheit": "Ω"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Ohmscher Widerstand",
+        "einheit": "Ω"
+      },
+      {
+        "symbol": "ω",
+        "bedeutung": "Kreisfrequenz 2πf",
+        "einheit": "rad/s"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Induktivität",
+        "einheit": "H"
+      },
+      {
+        "symbol": "C",
+        "bedeutung": "Kapazität",
+        "einheit": "F"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §15.3 “RLC Series Circuits with AC”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/15-3-rlc-series-circuits-with-ac"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/rlc-impedanz-serienschaltung"
+  },
+  {
+    "slug": "wechselstrom-wirkleistung",
+    "name": "Wirkleistung im sinusförmigen Wechselstromkreis",
+    "latex": "P=U_\\mathrm{rms}I_\\mathrm{rms}\\cos\\varphi",
+    "symbol": "P = Urms Irms cosφ",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "P",
+        "bedeutung": "Über eine Periode gemittelte Wirkleistung",
+        "einheit": "W"
+      },
+      {
+        "symbol": "Urms",
+        "bedeutung": "Effektivwert der Spannung",
+        "einheit": "V"
+      },
+      {
+        "symbol": "Irms",
+        "bedeutung": "Effektivwert des Stroms",
+        "einheit": "A"
+      },
+      {
+        "symbol": "φ",
+        "bedeutung": "Phasenwinkel zwischen Spannung und Strom",
+        "einheit": "rad"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §15.4 “Power in an AC Circuit”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/15-4-power-in-an-ac-circuit"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/wechselstrom-wirkleistung"
+  },
+  {
+    "slug": "zahnrad-uebersetzung",
+    "name": "Übersetzung eines idealen Stirnradpaares",
+    "latex": "i=\\frac{|\\omega_1|}{|\\omega_2|}=\\frac{z_2}{z_1}=\\frac{d_2}{d_1}",
+    "symbol": "i = |ω₁|/|ω₂| = z₂/z₁ = d₂/d₁",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-maschinenelemente",
+    "unterkategorie": "Maschinenelemente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "i",
+        "bedeutung": "Übersetzung als Eingangsdrehzahl zu Ausgangsdrehzahl",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "ω₁, ω₂",
+        "bedeutung": "Gerichtete Winkelgeschwindigkeiten von Antriebsrad 1 und Abtriebsrad 2; in i stehen ihre Beträge",
+        "einheit": "rad/s"
+      },
+      {
+        "symbol": "z₁, z₂",
+        "bedeutung": "Zähnezahlen",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "d₁, d₂",
+        "bedeutung": "Teilkreisdurchmesser",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Elements of Mechanical Design, transmission ratio for serial gears."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-72-elements-of-mechanical-design-spring-2009/83d81a6f63d1c6f0fb775c08b207bc51_MIT2_72s09_lec12.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/zahnrad-uebersetzung"
+  },
+  {
+    "slug": "zahnradmodul",
+    "name": "Modul eines Stirnrads",
+    "latex": "m=\\frac{d}{z}",
+    "symbol": "m = d/z",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-maschinenelemente",
+    "unterkategorie": "Maschinenelemente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "m",
+        "bedeutung": "Zahnradmodul",
+        "einheit": "mm"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Teilkreisdurchmesser",
+        "einheit": "mm"
+      },
+      {
+        "symbol": "z",
+        "bedeutung": "Zähnezahl",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Elements of Mechanical Design, gear pitch and transmission relations."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-72-elements-of-mechanical-design-spring-2009/83d81a6f63d1c6f0fb775c08b207bc51_MIT2_72s09_lec12.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/zahnradmodul"
+  },
+  {
+    "slug": "carnot-wirkungsgrad",
+    "name": "Carnot-Wirkungsgrad einer Wärmekraftmaschine",
+    "latex": "\\eta_C=1-\\frac{T_C}{T_H}",
+    "symbol": "ηC = 1 − TC/TH",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ηC",
+        "bedeutung": "Reversibler maximaler Wirkungsgrad",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "TH",
+        "bedeutung": "Absolute Temperatur des heißen Reservoirs",
+        "einheit": "K"
+      },
+      {
+        "symbol": "TC",
+        "bedeutung": "Absolute Temperatur des kalten Reservoirs",
+        "einheit": "K"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Supplementary Notes for Chapter 14: Carnot heat engines and efficiency."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/10-40-chemical-engineering-thermodynamics-fall-2003/32a9975ce77ddabe4e09f0d36547aee8_suppnotes_ch14.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/carnot-wirkungsgrad"
+  },
+  {
+    "slug": "waermepumpen-cop",
+    "name": "Leistungszahl einer Wärmepumpe",
+    "latex": "\\mathrm{COP}_{HP}=\\frac{Q_H}{W_{in}}",
+    "symbol": "COPHP = QH/Win",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "COPHP",
+        "bedeutung": "Heiz-Leistungszahl der Wärmepumpe",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "QH",
+        "bedeutung": "An das warme Reservoir abgegebene Wärmeenergie",
+        "einheit": "J"
+      },
+      {
+        "symbol": "Win",
+        "bedeutung": "Zugeführte Arbeit",
+        "einheit": "J"
+      }
+    ],
+    "quellen": [
+      "OpenStax College Physics 2e, 15.5 Applications of Thermodynamics: Heat Pumps and Refrigerators."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/college-physics-2e/pages/15-5-applications-of-thermodynamics-heat-pumps-and-refrigerators"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/waermepumpen-cop"
+  },
+  {
+    "slug": "waermeleitwiderstand-ebene-wand",
+    "name": "Wärmeleitwiderstand einer ebenen Wand",
+    "latex": "R_{th}=\\frac{L}{kA}",
+    "symbol": "Rth = L/(kA)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Rth",
+        "bedeutung": "Thermischer Leitwiderstand der Schicht",
+        "einheit": "K/W"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Wanddicke in Wärmestromrichtung",
+        "einheit": "m"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Wärmeleitfähigkeit",
+        "einheit": "W/(m·K)"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Querschnitt senkrecht zum Wärmestrom",
+        "einheit": "m²"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Heat Transfer, conduction thermal resistance."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/e32f70f7e00f34953447b606cea0421f_MIT2_051F15_EqnSheet_Q2_v3.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/waermeleitwiderstand-ebene-wand"
+  },
+  {
+    "slug": "thermische-spannung-behinderter-stab",
+    "name": "Thermische Spannung eines vollständig behinderten Stabs",
+    "latex": "\\sigma_{th}=-E\\alpha\\Delta T",
+    "symbol": "σth = −EαΔT",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σth",
+        "bedeutung": "Thermisch verursachte axiale Normalspannung",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Young-Modul im betrachteten Temperaturbereich",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "α",
+        "bedeutung": "Linearer Wärmeausdehnungskoeffizient",
+        "einheit": "K⁻¹"
+      },
+      {
+        "symbol": "ΔT",
+        "bedeutung": "Temperaturänderung",
+        "einheit": "K"
+      }
+    ],
+    "quellen": [
+      "Engineering LibreTexts, Mechanics of Materials, thermal stress and strain."
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Mechanics_of_Materials_(Roylance)/03%3A_General_Concepts_of_Stress_and_Strain/3.04%3A_Constitutive_Relations"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/thermische-spannung-behinderter-stab"
+  },
+  {
+    "slug": "spannungsintensitaetsfaktor-modus-i",
+    "name": "Spannungsintensitätsfaktor für einen Riss im Modus I",
+    "latex": "K_I=Y\\sigma\\sqrt{\\pi a}",
+    "symbol": "KI = Yσ√(πa)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "KI",
+        "bedeutung": "Spannungsintensitätsfaktor für öffnende Rissbelastung",
+        "einheit": "Pa√m"
+      },
+      {
+        "symbol": "Y",
+        "bedeutung": "Geometriefaktor aus Bauteil und Risskonfiguration",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "σ",
+        "bedeutung": "Nominelle Zugspannung",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Charakteristische Risslänge gemäß Geometriekonvention",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Failure, Fracture, and Fatigue, fracture mechanics notes."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-21-techniques-for-structural-analysis-and-design-spring-2005/5a1f077e5d41f3b711536818029e2600_unit13_notes.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/spannungsintensitaetsfaktor-modus-i"
+  },
+  {
+    "slug": "miner-schadensakkumulation",
+    "name": "Miner-Regel für kumulative Ermüdungsschädigung",
+    "latex": "D=\\sum_i\\frac{n_i}{N_i}",
+    "symbol": "D = Σ ni/Ni",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "D",
+        "bedeutung": "Kumulative lineare Schadenssumme",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "nᵢ",
+        "bedeutung": "Tatsächliche Zyklenzahl im Lastblock i",
+        "einheit": "Lastspiele"
+      },
+      {
+        "symbol": "Nᵢ",
+        "bedeutung": "Ertragbare Zyklenzahl bei konstantem Niveau i aus einer Wöhlerlinie",
+        "einheit": "Lastspiele"
+      }
+    ],
+    "quellen": [
+      "David Roylance, MIT Mechanics of Materials §6.5 Fatigue: cumulative damage equation, nonlinear and sequence limitations; LibreTexts textbook mirror"
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Mechanics_of_Materials_%28Roylance%29/06%3A_Yield_and_Fracture/6.05%3A_Fatigue"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/miner-schadensakkumulation"
+  },
+  {
+    "slug": "sicherheitsfaktor-festigkeit",
+    "name": "Sicherheitsfaktor gegen Überschreiten einer Festigkeitsgrenze",
+    "latex": "n=\\frac{R}{S}",
+    "symbol": "n = R/S",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "n",
+        "bedeutung": "Sicherheitsfaktor nach der festgelegten Definition",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Widerstands- oder Grenzgröße, etwa Streckgrenze",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "S",
+        "bedeutung": "Vergleichbare Beanspruchung",
+        "einheit": "Pa"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Engineering of Nuclear Reactors, stress and material failure discussion."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/22-312-engineering-of-nuclear-reactors-fall-2015/eb49bc4f3e701be60ca651c5a109312f_MIT22_312F15_note_L4.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/sicherheitsfaktor-festigkeit"
+  },
+  {
+    "slug": "kondensator-gespeicherte-energie",
+    "name": "Im Kondensator gespeicherte Energie",
+    "latex": "W_C=\\frac{1}{2}CV^2",
+    "symbol": "WC = ½CV²",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "WC",
+        "bedeutung": "Im Kondensator gespeicherte elektrische Energie",
+        "einheit": "J"
+      },
+      {
+        "symbol": "C",
+        "bedeutung": "Kapazität",
+        "einheit": "F"
+      },
+      {
+        "symbol": "V",
+        "bedeutung": "Spannung zwischen den Anschlüssen",
+        "einheit": "V"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §8.3 “Energy Stored in a Capacitor”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/8-3-energy-stored-in-a-capacitor"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kondensator-gespeicherte-energie"
+  },
+  {
+    "slug": "transformator-uebersetzungsverhaeltnis",
+    "name": "Spannungsübersetzung eines idealen Transformators",
+    "latex": "\\frac{U_2}{U_1}=\\frac{N_2}{N_1}",
+    "symbol": "U₂/U₁ = N₂/N₁",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "U1, U2",
+        "bedeutung": "Primär- und Sekundärspannung als Effektivwerte",
+        "einheit": "V"
+      },
+      {
+        "symbol": "N1, N2",
+        "bedeutung": "Primär- und Sekundärwindungszahlen",
+        "einheit": "Windungen"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §15.6 “Transformers”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/transformator-uebersetzungsverhaeltnis"
+  },
+  {
+    "slug": "sensible-waerme-kapazitaet",
+    "name": "Sensible Wärme bei konstanter Wärmekapazität",
+    "latex": "Q=mc_p\\Delta T,\\qquad\\Delta T=T_2-T_1",
+    "symbol": "Q = mcₚΔT; geschlossen, isobar, nur Volumenarbeit",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Q",
+        "bedeutung": "Signierte zugeführte Wärme unter den genannten Prozessbedingungen",
+        "einheit": "J"
+      },
+      {
+        "symbol": "m",
+        "bedeutung": "Positive geschlossene Masse",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "cₚ",
+        "bedeutung": "Positive konstante spezifische Wärmekapazität bei festem Druck",
+        "einheit": "J/(kg·K)"
+      },
+      {
+        "symbol": "ΔT",
+        "bedeutung": "Signierte Differenz T₂−T₁, keine absolute Temperatur",
+        "einheit": "K"
+      }
+    ],
+    "quellen": [
+      "MIT Thermodynamics2.4: cₚ as enthalpy derivative, cᵥ as internal-energy derivative and process conditions",
+      "OpenStax University Physics Volume2, section1.4: heat, specific heat, calorimetry and temperature differences"
+    ],
+    "quellenLinks": [
+      "https://web.mit.edu/16.unified/www/SPRING/thermodynamics/notes/node17.html",
+      "https://openstax.org/books/university-physics-volume-2/pages/1-4-heat-transfer-specific-heat-and-calorimetry"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/sensible-waerme-kapazitaet"
+  },
+  {
+    "slug": "gesamtwaermedurchgang-ebene-wand",
+    "name": "Gesamtwärmedurchgang durch eine ebene Wand",
+    "latex": "U=\\left(\\frac{1}{h_i}+\\frac{L}{k}+\\frac{1}{h_o}\\right)^{-1}",
+    "symbol": "U = 1/(1/hi + L/k + 1/ho)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "U",
+        "bedeutung": "Gesamtwärmedurchgangskoeffizient bezogen auf Wandfläche",
+        "einheit": "W/(m²·K)"
+      },
+      {
+        "symbol": "hi, ho",
+        "bedeutung": "Innere und äußere Wärmeübergangskoeffizienten",
+        "einheit": "W/(m²·K)"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Wanddicke",
+        "einheit": "m"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Wärmeleitfähigkeit der Wand",
+        "einheit": "W/(m·K)"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Heat Transfer, thermal resistance network equation sheet."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/e32f70f7e00f34953447b606cea0421f_MIT2_051F15_EqnSheet_Q2_v3.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/gesamtwaermedurchgang-ebene-wand"
+  },
+  {
+    "slug": "energie-spule-magnetfeld",
+    "name": "In einer Induktivität gespeicherte magnetische Energie",
+    "latex": "W_L=\\frac{1}{2}LI^2",
+    "symbol": "WL = ½LI²",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "WL",
+        "bedeutung": "Im Magnetfeld gespeicherte Energie",
+        "einheit": "J"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Induktivität",
+        "einheit": "H"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Momentaner Spulenstrom",
+        "einheit": "A"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §14.3 “Energy in a Magnetic Field”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/14-3-energy-in-a-magnetic-field"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/energie-spule-magnetfeld"
+  },
+  {
+    "slug": "dreiphasen-wirkleistung",
+    "name": "Wirkleistung im symmetrischen Drehstromsystem",
+    "latex": "P=\\sqrt{3}U_{LL}I_L\\cos\\varphi",
+    "symbol": "P = √3 ULL IL cosφ",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "P",
+        "bedeutung": "Gesamte Wirkleistung aller drei Phasen",
+        "einheit": "W"
+      },
+      {
+        "symbol": "ULL",
+        "bedeutung": "Effektivwert der Leiterspannung",
+        "einheit": "V"
+      },
+      {
+        "symbol": "IL",
+        "bedeutung": "Effektivwert des Leiterstroms",
+        "einheit": "A"
+      },
+      {
+        "symbol": "φ",
+        "bedeutung": "Phasenwinkel zwischen Phasenspannung und Phasenstrom bei symmetrischer Last",
+        "einheit": "rad"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §15.4 “Power in an AC Circuit”, extended to balanced three-phase systems.",
+      "J. R. Lucas, University of Moratuwa: Three Phase Theory & Symmetrical Components, Three Phase Power, pp.3–4"
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/15-4-power-in-an-ac-circuit",
+      "https://uom.lk/sites/default/files/elect/files/EE201_3phase_sym_comp.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/dreiphasen-wirkleistung"
+  },
+  {
+    "slug": "thevenin-aequivalentes-netzwerk",
+    "name": "Thevenin-Ersatzquelle eines linearen Zweipols",
+    "latex": "U_{Th}=U_{oc},\\quad R_{Th}=\\frac{U_{oc}}{I_{sc}}",
+    "symbol": "UTh = Uoc; RTh = Uoc/Isc",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "UTh",
+        "bedeutung": "Leerlaufspannung an den betrachteten Klemmen",
+        "einheit": "V"
+      },
+      {
+        "symbol": "RTh",
+        "bedeutung": "Innenwiderstand des linearen Zweipols",
+        "einheit": "Ω"
+      },
+      {
+        "symbol": "Isc",
+        "bedeutung": "Kurzschlussstrom an denselben Klemmen",
+        "einheit": "A"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Circuits and Electronics, Thevenin equivalent circuit notes."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-7-thevenin-norton-equivalent-circuits/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/thevenin-aequivalentes-netzwerk"
+  },
+  {
+    "slug": "norton-thevenin-umwandlung",
+    "name": "Norton-Ersatzquelle und Thevenin-Umwandlung",
+    "latex": "I_N=\\frac{U_{Th}}{R_{Th}},\\quad R_N=R_{Th}",
+    "symbol": "IN = UTh/RTh; RN = RTh",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "IN",
+        "bedeutung": "Norton-Kurzschlussstrom der Ersatzquelle",
+        "einheit": "A"
+      },
+      {
+        "symbol": "UTh",
+        "bedeutung": "Thevenin-Leerlaufspannung",
+        "einheit": "V"
+      },
+      {
+        "symbol": "RN, RTh",
+        "bedeutung": "Gleicher äquivalenter Innenwiderstand",
+        "einheit": "Ω"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Circuits and Electronics, Thevenin-Norton equivalent circuits."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-7-thevenin-norton-equivalent-circuits/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/norton-thevenin-umwandlung"
+  },
+  {
+    "slug": "daempfungsverhaeltnis-einmassenschwinger",
+    "name": "Dämpfungsverhältnis eines Einmassenschwingers",
+    "latex": "\\zeta=\\frac{c}{2\\sqrt{km}}",
+    "symbol": "ζ = c/(2√km)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ζ",
+        "bedeutung": "Dimensionsloses Dämpfungsverhältnis",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "c",
+        "bedeutung": "Viskoser Dämpfungskoeffizient",
+        "einheit": "N·s/m"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Lineare Federsteifigkeit",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "m",
+        "bedeutung": "Schwingende Masse",
+        "einheit": "kg"
+      }
+    ],
+    "quellen": [
+      "DTU Wind Energy, R. Riva: harmonic oscillator, equations20–26 and modal classification"
+    ],
+    "quellenLinks": [
+      "https://wtstab.pages.windenergy.dtu.dk/stability-analysis-of-wind-turbines/basic-concepts-of-stability/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/daempfungsverhaeltnis-einmassenschwinger"
+  },
+  {
+    "slug": "eigenkreisfrequenz-einmassenschwinger",
+    "name": "Ungedämpfte Eigenkreisfrequenz eines Einmassenschwingers",
+    "latex": "\\omega_n=\\sqrt{\\frac{k}{m}}",
+    "symbol": "ωₙ = √(k/m)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ωₙ",
+        "bedeutung": "Ungedämpfte Eigenkreisfrequenz",
+        "einheit": "rad/s"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Lineare Federsteifigkeit",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "m",
+        "bedeutung": "Schwingende Masse",
+        "einheit": "kg"
+      }
+    ],
+    "quellen": [
+      "OpenStax University Physics1,15.1 harmonic motion and15.5 equations15.25–15.26"
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/eigenkreisfrequenz-einmassenschwinger"
+  },
+  {
+    "slug": "pt1-uebertragungsfunktion",
+    "name": "Übertragungsfunktion eines PT1-Systems",
+    "latex": "G(s)=\\frac{K}{\\tau s+1}",
+    "symbol": "G(s) = K/(τs+1)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "G(s)",
+        "bedeutung": "Übertragungsfunktion im Laplace-Bereich",
+        "einheit": "dimensionsabhängig"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "Statische Verstärkung",
+        "einheit": "dimensionsabhängig"
+      },
+      {
+        "symbol": "τ",
+        "bedeutung": "Zeitkonstante",
+        "einheit": "s"
+      },
+      {
+        "symbol": "s",
+        "bedeutung": "Laplace-Variable",
+        "einheit": "s⁻¹"
+      }
+    ],
+    "quellen": [
+      "Malgorzata Zywno, Toronto Metropolitan University: Introduction to Control Systems, §6.1 First order systems",
+      "MIT2.010 Tutorial2, Time Constants and Exponential Settling"
+    ],
+    "quellenLinks": [
+      "https://pressbooks.library.torontomu.ca/controlsystems/chapter/6-1-first-order-systems/",
+      "https://web.mit.edu/2.010/www_f00/psets/hw2_dir/tutor2_dir/tut2_d.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/pt1-uebertragungsfunktion"
+  },
+  {
+    "slug": "screwtrieb-drehmoment-ideal",
+    "name": "Ideales Drehmoment einer Gewindespindel",
+    "latex": "T=\\frac{F p}{2\\pi}",
+    "symbol": "T = Fp/(2π)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-maschinenelemente",
+    "unterkategorie": "Maschinenelemente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "T",
+        "bedeutung": "Ideales Antriebsdrehmoment",
+        "einheit": "N·m"
+      },
+      {
+        "symbol": "F",
+        "bedeutung": "Axiale Lastkraft",
+        "einheit": "N"
+      },
+      {
+        "symbol": "p",
+        "bedeutung": "Vorschub pro Umdrehung (Leitweg)",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "Thomson: BSA Lead Screws Brochure, p.5 Useful formulas for lead screws"
+    ],
+    "quellenLinks": [
+      "https://www.thomsonlinear.com/downloads/screws/BSA_Lead_Screws_bruk.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/screwtrieb-drehmoment-ideal"
+  },
+  {
+    "slug": "nyquist-abtastbedingung",
+    "name": "Nyquist-Abtastbedingung für bandbegrenzte Signale",
+    "latex": "f_s>2f_{max},\\quad f_N=\\frac{f_s}{2}",
+    "symbol": "fs > 2 fmax; fN = fs/2",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "fs",
+        "bedeutung": "Abtastfrequenz",
+        "einheit": "Hz"
+      },
+      {
+        "symbol": "fmax",
+        "bedeutung": "Höchste im Signal enthaltene Frequenz",
+        "einheit": "Hz"
+      },
+      {
+        "symbol": "fN",
+        "bedeutung": "Nyquist-Frequenz \\(\\frac{fs}{2}\\)",
+        "einheit": "Hz"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Signal Processing: Continuous and Discrete, Lecture 10 on the sampling theorem."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-161-signal-processing-continuous-and-discrete-fall-2008/resources/lecture_10/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/nyquist-abtastbedingung"
+  },
+  {
+    "slug": "geschlossener-regelkreis-uebertragungsfunktion",
+    "name": "Übertragungsfunktion des geschlossenen Regelkreises",
+    "latex": "T(s)=\\frac{G(s)}{1+G(s)H(s)}",
+    "symbol": "T = G/(1+GH)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "T",
+        "bedeutung": "Geschlossene Übertragungsfunktion Sollwert zu Ausgang",
+        "einheit": "dimensionsabhängig"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Vorwärtsübertragungsfunktion",
+        "einheit": "dimensionsabhängig"
+      },
+      {
+        "symbol": "H",
+        "bedeutung": "Rückführungsübertragungsfunktion",
+        "einheit": "dimensionsabhängig"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Feedback Control Systems, closed-loop transfer functions."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-004-dynamics-and-control-ii-spring-2008/pages/lecture-notes/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/geschlossener-regelkreis-uebertragungsfunktion"
+  },
+  {
+    "slug": "regelkreis-sensitivitaetsfunktion",
+    "name": "Sensitivitätsfunktion des Rückkopplungssystems",
+    "latex": "S(s)=\\frac{1}{1+G(s)H(s)}",
+    "symbol": "S = 1/(1+GH)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "S",
+        "bedeutung": "Sensitivitätsfunktion",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Vorwärtsübertragungsfunktion",
+        "einheit": "dimensionsabhängig"
+      },
+      {
+        "symbol": "H",
+        "bedeutung": "Rückführungsübertragungsfunktion",
+        "einheit": "dimensionsabhängig"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Feedback Control Systems, sensitivity and loop transfer functions."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-004-dynamics-and-control-ii-spring-2008/pages/lecture-notes/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/regelkreis-sensitivitaetsfunktion"
+  },
+  {
+    "slug": "logarithmisches-dekrement",
+    "name": "Logarithmisches Dekrement einer gedämpften Schwingung",
+    "latex": "\\delta=\\ln\\left(\\frac{x_k}{x_{k+1}}\\right)",
+    "symbol": "δ = ln(xₖ/xₖ₊₁)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "δ",
+        "bedeutung": "Logarithmisches Dekrement pro Periode",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "xₖ, xₖ₊₁",
+        "bedeutung": "Beträge aufeinanderfolgender gleichsinniger Schwingungsmaxima",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "DTU Wind Energy, R. Riva: Basic concepts of stability, logarithmic decrement, equations23–33"
+    ],
+    "quellenLinks": [
+      "https://wtstab.pages.windenergy.dtu.dk/stability-analysis-of-wind-turbines/basic-concepts-of-stability/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/logarithmisches-dekrement"
+  },
+  {
+    "slug": "pt2-uebertragungsfunktion",
+    "name": "Normierte PT2-Übertragungsfunktion",
+    "latex": "G(s)=\\frac{K\\omega_n^2}{s^2+2\\zeta\\omega_n s+\\omega_n^2}",
+    "symbol": "G(s) = Kωₙ² / (s² +2ζωₙs+ωₙ²)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "G(s)",
+        "bedeutung": "Übertragungsfunktion",
+        "einheit": "dimensionsabhängig"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "Statische Verstärkung",
+        "einheit": "dimensionsabhängig"
+      },
+      {
+        "symbol": "ωₙ",
+        "bedeutung": "Ungedämpfte Eigenkreisfrequenz",
+        "einheit": "rad/s"
+      },
+      {
+        "symbol": "ζ",
+        "bedeutung": "Dämpfungsverhältnis",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "MIT2.161 Sinusoidal Frequency Response of Linear Systems, section5.2 equations31–37; normalized K=Ko/ωn²"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-161-signal-processing-continuous-and-discrete-fall-2008/a9a6fa4c4c56513e2d5df392df6123ee_bode.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/pt2-uebertragungsfunktion"
+  },
+  {
+    "slug": "riemenantrieb-umfangsgeschwindigkeit",
+    "name": "Umfangsgeschwindigkeit eines Riemenantriebs",
+    "latex": "v=\\frac{\\pi D n}{60}",
+    "symbol": "v = πDn/60",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-maschinenelemente",
+    "unterkategorie": "Maschinenelemente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "v",
+        "bedeutung": "Riemen- und Teilkreisgeschwindigkeit",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "D",
+        "bedeutung": "Wirksamer Scheibendurchmesser",
+        "einheit": "m"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Drehzahl",
+        "einheit": "min⁻¹"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Elements of Mechanical Design, belt drives and kinematics."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-72-elements-of-mechanical-design-spring-2009/83d81a6f63d1c6f0fb775c08b207bc51_MIT2_72s09_lec12.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/riemenantrieb-umfangsgeschwindigkeit"
+  },
+  {
+    "slug": "riemenantrieb-drehzahlverhaeltnis",
+    "name": "Drehzahlverhältnis schlupffreier Riemenscheiben",
+    "latex": "\\frac{n_1}{n_2}=\\frac{D_2}{D_1}",
+    "symbol": "n₁/n₂ = D₂/D₁",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-maschinenelemente",
+    "unterkategorie": "Maschinenelemente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "n1, n2",
+        "bedeutung": "Drehzahlen von Antriebs- und Abtriebsscheibe",
+        "einheit": "min⁻¹"
+      },
+      {
+        "symbol": "D1, D2",
+        "bedeutung": "Wirksame Teilkreisdurchmesser der Scheiben",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Elements of Mechanical Design, belt drive kinematics."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-72-elements-of-mechanical-design-spring-2009/83d81a6f63d1c6f0fb775c08b207bc51_MIT2_72s09_lec12.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/riemenantrieb-drehzahlverhaeltnis"
+  },
+  {
+    "slug": "maschinenwirkungsgrad",
+    "name": "Wirkungsgrad einer Maschine",
+    "latex": "\\eta=\\frac{P_{out}}{P_{in}}",
+    "symbol": "η = Pout/Pin",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-maschinenelemente",
+    "unterkategorie": "Maschinenelemente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "η",
+        "bedeutung": "Leistungswirkungsgrad",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "Pout",
+        "bedeutung": "Nutzleistung über die festgelegte Systemgrenze",
+        "einheit": "W"
+      },
+      {
+        "symbol": "Pin",
+        "bedeutung": "Zugeführte Leistung über dieselbe Grenze",
+        "einheit": "W"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Sustainable Energy, energy conversion efficiency."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/22-081j-introduction-to-sustainable-energy-fall-2010/411beca04e9b15f5ca2caed33b4a801d_MIT22_081JF10_lec09a.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/maschinenwirkungsgrad"
+  },
+  {
+    "slug": "waelzlager-nennlebensdauer",
+    "name": "Nominelle Lebensdauer eines Wälzlagers",
+    "latex": "L_{10}=\\left(\\frac{C}{P}\\right)^p",
+    "symbol": "L10 = (C/P)^p",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-maschinenelemente",
+    "unterkategorie": "Maschinenelemente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "L10",
+        "bedeutung": "Nominelle Lebensdauer, die 90 % einer ausreichend großen Lagergruppe erreichen oder überschreiten",
+        "einheit": "Millionen Umdrehungen"
+      },
+      {
+        "symbol": "C",
+        "bedeutung": "Dynamische Tragzahl des Lagers",
+        "einheit": "N"
+      },
+      {
+        "symbol": "P",
+        "bedeutung": "Äquivalente dynamische Lagerbelastung",
+        "einheit": "N"
+      },
+      {
+        "symbol": "p",
+        "bedeutung": "Lebensdauerexponent nach Lagertyp",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "SKF, Rolling bearings catalogue, basic rating life and ISO 281."
+    ],
+    "quellenLinks": [
+      "https://www.skf.com/group/products/rolling-bearings/principles-of-rolling-bearing-selection/bearing-life"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/waelzlager-nennlebensdauer"
+  },
+  {
+    "slug": "sinus-effektivwert",
+    "name": "Effektivwert einer sinusförmigen Wechselgröße",
+    "latex": "X_{rms}=\\frac{\\hat X}{\\sqrt{2}}",
+    "symbol": "Xrms = X̂/√2",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Xrms",
+        "bedeutung": "Effektivwert der sinusförmigen Größe",
+        "einheit": "V oder A"
+      },
+      {
+        "symbol": "X̂",
+        "bedeutung": "Scheitelwert der Sinusgröße",
+        "einheit": "V oder A"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §15.2 “Simple AC Circuits”."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/sinus-effektivwert"
+  },
+  {
+    "slug": "drehstrom-scheinleistung",
+    "name": "Scheinleistung im symmetrischen Drehstromsystem",
+    "latex": "S=\\sqrt{3}U_{LL}I_L",
+    "symbol": "S = √3 ULL IL",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "S",
+        "bedeutung": "Gesamte Scheinleistung des Drehstromsystems",
+        "einheit": "VA"
+      },
+      {
+        "symbol": "ULL",
+        "bedeutung": "Effektivwert der Leiterspannung",
+        "einheit": "V"
+      },
+      {
+        "symbol": "IL",
+        "bedeutung": "Effektivwert des Leiterstroms",
+        "einheit": "A"
+      }
+    ],
+    "quellen": [
+      "OpenStax, University Physics Volume 2, §15.4 “Power in an AC Circuit”.",
+      "J. R. Lucas, University of Moratuwa: Three Phase Theory & Symmetrical Components, Three Phase Power, pp.3–4"
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/university-physics-volume-2/pages/15-4-power-in-an-ac-circuit",
+      "https://uom.lk/sites/default/files/elect/files/EE201_3phase_sym_comp.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/drehstrom-scheinleistung"
+  },
+  {
+    "slug": "drehstrom-blindleistung",
+    "name": "Blindleistung im symmetrischen Drehstromsystem",
+    "latex": "Q=\\sqrt{3}U_{LL}I_L\\sin\\varphi",
+    "symbol": "Q = √3 ULL IL sinφ",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Q",
+        "bedeutung": "Gesamtblindleistung des Systems",
+        "einheit": "var"
+      },
+      {
+        "symbol": "ULL",
+        "bedeutung": "Effektivwert der Leiterspannung",
+        "einheit": "V"
+      },
+      {
+        "symbol": "IL",
+        "bedeutung": "Effektivwert des Leiterstroms",
+        "einheit": "A"
+      },
+      {
+        "symbol": "φ",
+        "bedeutung": "Phasenwinkel zwischen Phasenspannung und Phasenstrom",
+        "einheit": "rad"
+      }
+    ],
+    "quellen": [
+      "Schneider Electric, Electrical Installation Guide: Definition of reactive power"
+    ],
+    "quellenLinks": [
+      "https://www.electrical-installation.org/enwiki/Definition_of_reactive_power"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/drehstrom-blindleistung"
+  },
+  {
+    "slug": "wheatstone-bruecken-abgleich",
+    "name": "Abgleichbedingung einer Wheatstone-Brücke",
+    "latex": "\\frac{R_1}{R_2}=\\frac{R_3}{R_4}",
+    "symbol": "R₁/R₂ = R₃/R₄",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "R1–R4",
+        "bedeutung": "Vier Brückenwiderstände in der angegebenen Anordnung",
+        "einheit": "Ω"
+      }
+    ],
+    "quellen": [
+      "NI: Measuring Strain with Strain Gages, Measuring Strain / Wheatstone bridge"
+    ],
+    "quellenLinks": [
+      "https://www.ni.com/en/shop/data-acquisition/sensor-fundamentals/measuring-strain-with-strain-gages.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/wheatstone-bruecken-abgleich"
+  },
+  {
+    "slug": "pumpen-affinitaetsgesetze",
+    "name": "Ähnlichkeitsgesetze einer Kreiselpumpe bei Drehzahländerung",
+    "latex": "Q\\propto n,\\quad H\\propto n^2,\\quad P\\propto n^3",
+    "symbol": "Q∝n; H∝n²; P∝n³",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Q",
+        "bedeutung": "Volumenstrom",
+        "einheit": "m³/s"
+      },
+      {
+        "symbol": "H",
+        "bedeutung": "Förderhöhe",
+        "einheit": "m"
+      },
+      {
+        "symbol": "P",
+        "bedeutung": "Leistungsaufnahme beziehungsweise Pumpenleistung gemäß gleicher Definition",
+        "einheit": "W"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Drehzahl",
+        "einheit": "s⁻¹"
+      }
+    ],
+    "quellen": [
+      "Hydraulic Institute, Rotodynamic pump affinity laws and speed variation guidance."
+    ],
+    "quellenLinks": [
+      "https://datatool.pumps.org/pump-fundamentals/pump-curves"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/pumpen-affinitaetsgesetze"
+  },
+  {
+    "slug": "euler-turbomaschinengleichung",
+    "name": "Euler-Gleichung der Turbomaschinen",
+    "latex": "\\Delta h_0=U_2C_{\\theta2}-U_1C_{\\theta1}",
+    "symbol": "Δh₀ = U₂Cθ₂ − U₁Cθ₁",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Δh0",
+        "bedeutung": "Spezifische Totalenthalpieänderung des Fluids",
+        "einheit": "J/kg"
+      },
+      {
+        "symbol": "U1,U2",
+        "bedeutung": "Schaufelumfangsgeschwindigkeit an Ein- und Austritt",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "Cθ1,Cθ2",
+        "bedeutung": "Tangentiale Absolutgeschwindigkeitskomponente",
+        "einheit": "m/s"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Thermodynamics and Propulsion, turbomachinery Euler equation."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-687-introduction-to-aerospace-propulsion-fall-2016/pages/lecture-notes/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/euler-turbomaschinengleichung"
+  },
+  {
+    "slug": "kavitationszahl",
+    "name": "Kavitationszahl einer Strömung",
+    "latex": "\\sigma=\\frac{p-p_v}{\\frac{1}{2}\\rho v^2}",
+    "symbol": "σ = (p−pᵥ)/(½ρv²)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σ",
+        "bedeutung": "Kavitationszahl nach der festgelegten Referenzstelle",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "p",
+        "bedeutung": "Statischer Absolutdruck an der ausdrücklich festgelegten Referenzstelle",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "pᵥ",
+        "bedeutung": "Dampfdruck des Fluids bei aktueller Temperatur",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "ρ",
+        "bedeutung": "Fluiddichte",
+        "einheit": "kg/m³"
+      },
+      {
+        "symbol": "v",
+        "bedeutung": "Charakteristische Strömungsgeschwindigkeit",
+        "einheit": "m/s"
+      }
+    ],
+    "quellen": [
+      "Penn State University, Cavitation and dimensionless flow parameters."
+    ],
+    "quellenLinks": [
+      "https://www.me.psu.edu/cimbala/Learning/Fluid/Cavitation/home.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kavitationszahl"
+  },
+  {
+    "slug": "prandtl-zahl",
+    "name": "Prandtl-Zahl eines Fluids",
+    "latex": "\\mathrm{Pr}=\\frac{\\nu}{\\alpha}=\\frac{\\mu c_p}{k}",
+    "symbol": "Pr = ν/α = μcp/k",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Pr",
+        "bedeutung": "Prandtl-Zahl",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "ν",
+        "bedeutung": "Kinematische Viskosität",
+        "einheit": "m²/s"
+      },
+      {
+        "symbol": "α",
+        "bedeutung": "Temperaturleitfähigkeit",
+        "einheit": "m²/s"
+      },
+      {
+        "symbol": "μ",
+        "bedeutung": "Dynamische Viskosität",
+        "einheit": "Pa·s"
+      },
+      {
+        "symbol": "cp",
+        "bedeutung": "Spezifische Wärmekapazität",
+        "einheit": "J/(kg·K)"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Wärmeleitfähigkeit",
+        "einheit": "W/(m·K)"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Heat Transfer, dimensionless groups and Prandtl number."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/e32f70f7e00f34953447b606cea0421f_MIT2_051F15_EqnSheet_Q2_v3.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/prandtl-zahl"
+  },
+  {
+    "slug": "nusselt-zahl",
+    "name": "Nusselt-Zahl des konvektiven Wärmeübergangs",
+    "latex": "\\mathrm{Nu}=\\frac{hL}{k}",
+    "symbol": "Nu = hL/k",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Nu",
+        "bedeutung": "Nusselt-Zahl",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "h",
+        "bedeutung": "Konvektiver Wärmeübergangskoeffizient",
+        "einheit": "W/(m²·K)"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Zur Korrelation passende charakteristische Länge",
+        "einheit": "m"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Wärmeleitfähigkeit des Fluids",
+        "einheit": "W/(m·K)"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Heat Transfer, Nusselt number and convection correlations."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/e32f70f7e00f34953447b606cea0421f_MIT2_051F15_EqnSheet_Q2_v3.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/nusselt-zahl"
+  },
+  {
+    "slug": "sherwood-zahl",
+    "name": "Sherwood-Zahl des konvektiven Stofftransports",
+    "latex": "\\mathrm{Sh}=\\frac{k_mL}{D}",
+    "symbol": "Sh = kmL/D",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Sh",
+        "bedeutung": "Sherwood-Zahl",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "km",
+        "bedeutung": "Stoffübergangskoeffizient",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Zur Stoffübergangskorrelation passende Länge",
+        "einheit": "m"
+      },
+      {
+        "symbol": "D",
+        "bedeutung": "Molekularer Diffusionskoeffizient",
+        "einheit": "m²/s"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Nano-to-Macro Transport Processes, mass-transfer dimensionless groups."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-57-nano-to-macro-transport-processes-spring-2012/2e4ecaa5cf55f03bcefbc8ccce79aed6_MIT2_57S12_lec_notes_2004.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/sherwood-zahl"
+  },
+  {
+    "slug": "lewis-zahl",
+    "name": "Lewis-Zahl für Wärme- und Stoffdiffusion",
+    "latex": "\\mathrm{Le}=\\frac{\\alpha}{D}",
+    "symbol": "Le = α/D",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Le",
+        "bedeutung": "Lewis-Zahl",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "α",
+        "bedeutung": "Temperaturleitfähigkeit des Fluids",
+        "einheit": "m²/s"
+      },
+      {
+        "symbol": "D",
+        "bedeutung": "Molekulare Diffusivität der Spezies",
+        "einheit": "m²/s"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Nano-to-Macro Transport Processes, Lewis number and transport analogies."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-57-nano-to-macro-transport-processes-spring-2012/2e4ecaa5cf55f03bcefbc8ccce79aed6_MIT2_57S12_lec_notes_2004.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/lewis-zahl"
+  },
+  {
+    "slug": "waermetauscher-wirksamkeit",
+    "name": "Wirksamkeit eines Wärmeübertragers",
+    "latex": "\\varepsilon=\\frac{\\dot Q}{\\dot Q_{max}}",
+    "symbol": "ε = Q̇/Q̇max",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ε",
+        "bedeutung": "Thermische Wirksamkeit des Wärmeübertragers",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "Q̇",
+        "bedeutung": "Tatsächlich übertragener Wärmestrom",
+        "einheit": "W"
+      },
+      {
+        "symbol": "Q̇max",
+        "bedeutung": "Maximal möglicher Wärmestrom anhand der Eintrittstemperaturen und kleineren Wärmekapazitätsrate",
+        "einheit": "W"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Thermal Energy, heat exchanger effectiveness and NTU method."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-050-thermal-energy-fall-2002/87d9f4544b7fd64a77201382500d057c_10_part3.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/waermetauscher-wirksamkeit"
+  },
+  {
+    "slug": "voigt-mischungsregel-elastizitaetsmodul",
+    "name": "Voigt-Mischungsregel für den axialen Verbundmodul",
+    "latex": "E_c=V_fE_f+V_mE_m",
+    "symbol": "Ec = VfEf + VmEm",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Ec",
+        "bedeutung": "Axialer Elastizitätsmodul des Verbunds",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "Vf, Vm",
+        "bedeutung": "Volumenanteile von Faser und Matrix",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "Ef, Em",
+        "bedeutung": "Elastizitätsmodule von Faser und Matrix entlang der Belastungsrichtung",
+        "einheit": "Pa"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Mechanics of Materials, composite material properties and rule of mixtures."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/3-11-mechanics-of-materials-fall-1999/pages/lecture-notes/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/voigt-mischungsregel-elastizitaetsmodul"
+  },
+  {
+    "slug": "kragtraeger-durchbiegung-endkraft",
+    "name": "Enddurchbiegung eines Kragträgers mit Spitzenkraft",
+    "latex": "\\delta=\\frac{FL^3}{3EI}",
+    "symbol": "δ = FL³/(3EI)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "δ",
+        "bedeutung": "Vertikale Enddurchbiegung",
+        "einheit": "m"
+      },
+      {
+        "symbol": "F",
+        "bedeutung": "Kraft am freien Ende",
+        "einheit": "N"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Trägerlänge",
+        "einheit": "m"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Young-Modul",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Flächenträgheitsmoment",
+        "einheit": "m⁴"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Unified Engineering, Materials and Structures Formula Sheet, p. 2."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/1f1b4e82bae2ff8ce609bc96fe20eedb_sprh04.pdf#page=2"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kragtraeger-durchbiegung-endkraft"
+  },
+  {
+    "slug": "einfeldtraeger-durchbiegung-mittellast",
+    "name": "Mittendurchbiegung eines einfach gelagerten Trägers mit Mittellast",
+    "latex": "\\delta_{max}=\\frac{FL^3}{48EI}",
+    "symbol": "δmax = FL³/(48EI)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "δmax",
+        "bedeutung": "Maximale Durchbiegung in Feldmitte",
+        "einheit": "m"
+      },
+      {
+        "symbol": "F",
+        "bedeutung": "Mittige Punktlast",
+        "einheit": "N"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Spannweite",
+        "einheit": "m"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Young-Modul",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Flächenträgheitsmoment",
+        "einheit": "m⁴"
+      }
+    ],
+    "quellen": [
+      "MIT 1.050 Solid Mechanics, Problem Set11, Reference: Deflections of Beams"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/fd4eff39aec922b8c07660006f40686e_pset04_11.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/einfeldtraeger-durchbiegung-mittellast"
+  },
+  {
+    "slug": "schubfluss-duennwandiger-balken",
+    "name": "Schubfluss im dünnwandigen Balkenquerschnitt",
+    "latex": "q=\\frac{VQ}{I}",
+    "symbol": "q = VQ/I",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "q",
+        "bedeutung": "Schubfluss entlang der Wanddicke",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "V",
+        "bedeutung": "Querkraft im Balkenschnitt",
+        "einheit": "N"
+      },
+      {
+        "symbol": "Q",
+        "bedeutung": "Statisches Flächenmoment des Teilquerschnitts",
+        "einheit": "m³"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Flächenträgheitsmoment des Gesamtquerschnitts",
+        "einheit": "m⁴"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Solid Mechanics, shear flow in thin-walled beams."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/8f0200f4ca3236383a2ef048c7ec4c40_emech9_04.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/schubfluss-duennwandiger-balken"
+  },
+  {
+    "slug": "komplementaere-sensitivitaetsfunktion",
+    "name": "Komplementäre Sensitivitätsfunktion des Regelkreises",
+    "latex": "T(s)=\\frac{G(s)H(s)}{1+G(s)H(s)}",
+    "symbol": "T = GH/(1+GH)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "T",
+        "bedeutung": "Komplementäre Sensitivitätsfunktion",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "G",
+        "bedeutung": "Vorwärtsübertragungsfunktion",
+        "einheit": "dimensionsabhängig"
+      },
+      {
+        "symbol": "H",
+        "bedeutung": "Rückführungsübertragungsfunktion",
+        "einheit": "dimensionsabhängig"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Feedback Control Systems, sensitivity and complementary sensitivity."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-004-dynamics-and-control-ii-spring-2008/pages/lecture-notes/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/komplementaere-sensitivitaetsfunktion"
+  },
+  {
+    "slug": "leistungsanpassung-thevenin",
+    "name": "Widerstandsbedingung für maximale Leistungsübertragung",
+    "latex": "R_L=R_{Th}",
+    "symbol": "RL = RTh",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "RL",
+        "bedeutung": "Ohmscher Lastwiderstand",
+        "einheit": "Ω"
+      },
+      {
+        "symbol": "RTh",
+        "bedeutung": "Thevenin-Innenwiderstand der Quelle",
+        "einheit": "Ω"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Introduction to Electronics, maximum power transfer theorem."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-071j-introduction-to-electronics-signals-and-measurement-spring-2006/004de24dd40e3938b0393a6a2bd91788_linear_crct_ana.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/leistungsanpassung-thevenin"
+  },
+  {
+    "slug": "riemenantrieb-uebertragene-leistung",
+    "name": "Übertragene Leistung eines Riemens",
+    "latex": "P=(F_1-F_2)v",
+    "symbol": "P = (F1−F2)v",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-maschinenelemente",
+    "unterkategorie": "Maschinenelemente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "P",
+        "bedeutung": "Mechanisch übertragene Leistung",
+        "einheit": "W"
+      },
+      {
+        "symbol": "F1",
+        "bedeutung": "Zugkraft im straffen Trum",
+        "einheit": "N"
+      },
+      {
+        "symbol": "F2",
+        "bedeutung": "Zugkraft im losen Trum",
+        "einheit": "N"
+      },
+      {
+        "symbol": "v",
+        "bedeutung": "Riemengeschwindigkeit",
+        "einheit": "m/s"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Elements of Mechanical Design, belt-drive force and power relations."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-72-elements-of-mechanical-design-spring-2009/83d81a6f63d1c6f0fb775c08b207bc51_MIT2_72s09_lec12.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/riemenantrieb-uebertragene-leistung"
+  },
+  {
+    "slug": "npsh-verfuegbar",
+    "name": "Verfügbare Netto-Saughöhe einer Pumpe",
+    "latex": "NPSH_A=H_{s,abs}-H_v",
+    "symbol": "NPSHA = Hs,abs − Hv",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "NPSHA",
+        "bedeutung": "Systemseitig verfügbare Netto-Saughöhe",
+        "einheit": "m"
+      },
+      {
+        "symbol": "Hs,abs",
+        "bedeutung": "Absolute Gesamt-Saughöhe am festgelegten Pumpenbezugspunkt",
+        "einheit": "m"
+      },
+      {
+        "symbol": "Hv",
+        "bedeutung": "Dampfdruckhöhe der Flüssigkeit bei Betriebstemperatur",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "Hydraulic Institute, The Basics of NPSH and Pump Operating Regions (2022)."
+    ],
+    "quellenLinks": [
+      "https://www.pumps.org/2022/12/07/the-basics-of-npsh-pump-operating-regions/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/npsh-verfuegbar"
+  },
+  {
+    "slug": "waermetauscher-kapazitaetsverhaeltnis",
+    "name": "Wärmekapazitätsstromverhältnis eines Wärmeübertragers",
+    "latex": "C_i=\\dot m_i c_{p, i},\\qquad C_r=\\frac{\\min(C_1, C_2)}{\\max(C_1, C_2)}",
+    "symbol": "Cᵣ = Cmin/Cmax; Cᵢ = ṁᵢcₚ,ᵢ",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Cᵣ",
+        "bedeutung": "Verhältnis der kleineren zur größeren positiven sensiblen Kapazitätsrate",
+        "einheit": "1"
+      },
+      {
+        "symbol": "Cmin, Cmax",
+        "bedeutung": "Geordnete positive endliche Wärmekapazitätsströme",
+        "einheit": "W/K"
+      },
+      {
+        "symbol": "ṁᵢ",
+        "bedeutung": "Positiver Massenstrom auf Seite i",
+        "einheit": "kg/s"
+      },
+      {
+        "symbol": "cₚ,ᵢ",
+        "bedeutung": "Passender konstanter spezifischer Wärmekapazitätswert",
+        "einheit": "J/(kg·K)"
+      }
+    ],
+    "quellen": [
+      "MIT Thermodynamics and Propulsion, section18.5: two-stream balances, capacity rates and counterflow integration",
+      "ASHRAE Handbook2025 Fundamentals, chapter4 section5: Cr/NTU, phase-change limit, LMTD assumptions and UA area basis"
+    ],
+    "quellenLinks": [
+      "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node131.html",
+      "https://handbook.ashrae.org/Handbooks/F25/SI/f25_ch04/f25_ch04_si.aspx"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/waermetauscher-kapazitaetsverhaeltnis"
+  },
+  {
+    "slug": "kragtraeger-durchbiegung-gleichlast",
+    "name": "Enddurchbiegung eines Kragträgers mit Gleichlast",
+    "latex": "\\delta_{max}=\\frac{qL^4}{8EI}",
+    "symbol": "δmax = qL⁴/(8EI)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "δmax",
+        "bedeutung": "Enddurchbiegung am freien Ende",
+        "einheit": "m"
+      },
+      {
+        "symbol": "q",
+        "bedeutung": "Gleichmäßig verteilte Linienlast",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Trägerlänge",
+        "einheit": "m"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Young-Modul",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Flächenträgheitsmoment",
+        "einheit": "m⁴"
+      }
+    ],
+    "quellen": [
+      "MIT 1.050 Solid Mechanics, Problem Set11, Reference: Deflections of Beams"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/fd4eff39aec922b8c07660006f40686e_pset04_11.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kragtraeger-durchbiegung-gleichlast"
+  },
+  {
+    "slug": "einfeldtraeger-durchbiegung-gleichlast",
+    "name": "Mittendurchbiegung eines Einfeldträgers mit Gleichlast",
+    "latex": "\\delta_{max}=\\frac{5qL^4}{384EI}",
+    "symbol": "δmax = 5qL⁴/(384EI)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "δmax",
+        "bedeutung": "Maximale Durchbiegung in Feldmitte",
+        "einheit": "m"
+      },
+      {
+        "symbol": "q",
+        "bedeutung": "Gleichmäßig verteilte Linienlast über die Spannweite",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Spannweite",
+        "einheit": "m"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Young-Modul",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Flächenträgheitsmoment",
+        "einheit": "m⁴"
+      }
+    ],
+    "quellen": [
+      "MIT 1.050 Solid Mechanics, Problem Set11, Reference: Deflections of Beams"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/fd4eff39aec922b8c07660006f40686e_pset04_11.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/einfeldtraeger-durchbiegung-gleichlast"
+  },
+  {
+    "slug": "reuss-mischungsregel-quer-modul",
+    "name": "Reuss-Näherung für den Quermodul eines Faserverbunds",
+    "latex": "\\frac{1}{E_T}=\\frac{V_f}{E_f}+\\frac{V_m}{E_m}",
+    "symbol": "1/ET = Vf/Ef + Vm/Em",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ET",
+        "bedeutung": "Transversaler Elastizitätsmodul des idealisierten Verbunds",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "Vf,Vm",
+        "bedeutung": "Volumenanteile von Faser und Matrix",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "Ef,Em",
+        "bedeutung": "Elastizitätsmodule der Phasen in Belastungsrichtung",
+        "einheit": "Pa"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Mechanics of Materials, composite series model and transverse modulus."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/3-11-mechanics-of-materials-fall-1999/e87276d20858aa3dc64aae71b04d7486_MIT3_11F99_composites.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/reuss-mischungsregel-quer-modul"
+  },
+  {
+    "slug": "balkenlast-querkraft-moment-differential",
+    "name": "Differentialbeziehungen zwischen Streckenlast, Querkraft und Moment",
+    "latex": "\\frac{dV}{dx}=-q(x),\\quad\\frac{dM}{dx}=V(x)",
+    "symbol": "dV/dx = −q; dM/dx = V",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "q(x)",
+        "bedeutung": "Signierte Querlast pro Länge gemäß Konvention",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "V(x)",
+        "bedeutung": "Querkraft im Balkenschnitt",
+        "einheit": "N"
+      },
+      {
+        "symbol": "M(x)",
+        "bedeutung": "Biegemoment im Balkenschnitt",
+        "einheit": "N·m"
+      },
+      {
+        "symbol": "x",
+        "bedeutung": "Koordinate entlang des Balkens",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Unified Engineering, shear-force and bending-moment relations."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/pages/materials-structures/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/balkenlast-querkraft-moment-differential"
+  },
+  {
+    "slug": "kontrollvolumen-massenbilanz",
+    "name": "Massenbilanz am Kontrollvolumen",
+    "latex": "\\frac{d}{dt}\\int_{CV}\\rho\\,dV+\\sum_{out}\\dot m-\\sum_{in}\\dot m=0",
+    "symbol": "Akkumulation + Abfluss − Zufluss = 0",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ρ",
+        "bedeutung": "Lokale Fluiddichte",
+        "einheit": "kg/m³"
+      },
+      {
+        "symbol": "CV",
+        "bedeutung": "Festgelegtes Kontrollvolumen",
+        "einheit": "definierter Bereich"
+      },
+      {
+        "symbol": "ṁ",
+        "bedeutung": "Massenstrom über einen Querschnitt",
+        "einheit": "kg/s"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Unified Engineering Thermodynamics, Chapter 6: First Law for a Control Volume; Conservation of Mass."
+    ],
+    "quellenLinks": [
+      "https://live.ocw.mit.edu/ans7870/16/16.unified/thermoF03/chapter_6.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kontrollvolumen-massenbilanz"
+  },
+  {
+    "slug": "kontrollvolumen-energiebilanz",
+    "name": "Energiebilanz eines stationären Kontrollvolumens",
+    "latex": "0=\\dot Q-\\dot W+\\sum_{in}\\dot m_i(h_i+v_i^2/2+gz_i)-\\sum_{out}\\dot m_o(h_o+v_o^2/2+gz_o)",
+    "symbol": "Q̇ − Ẇ + einströmende Energie − ausströmende Energie = 0",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Q̇",
+        "bedeutung": "Signierte Wärmeleistung positiv hinein",
+        "einheit": "W"
+      },
+      {
+        "symbol": "Ẇ",
+        "bedeutung": "Technische Leistung positiv hinaus, ohne bereits in h enthaltene Strömungsarbeit",
+        "einheit": "W"
+      },
+      {
+        "symbol": "ṁ",
+        "bedeutung": "Positiver Massenstrom, stationär vollständig bilanziert",
+        "einheit": "kg/s"
+      },
+      {
+        "symbol": "h",
+        "bedeutung": "Spezifische Enthalpie u+p/ρ mit gemeinsamem Bezug",
+        "einheit": "J/kg"
+      },
+      {
+        "symbol": "v",
+        "bedeutung": "Uniformer Geschwindigkeitsbetrag; sonst kinetische Profilkorrektur nötig",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "z",
+        "bedeutung": "Höhe über gemeinsamem Bezug",
+        "einheit": "m"
+      },
+      {
+        "symbol": "g",
+        "bedeutung": "Positive Fallbeschleunigung",
+        "einheit": "m/s²"
+      }
+    ],
+    "quellen": [
+      "MIT Unified Engineering Thermodynamics, chapter6: steady-flow energy, enthalpy and flow versus shaft work",
+      "Purdue ME200 Homework34: general energy rate equation with mass, heat and work"
+    ],
+    "quellenLinks": [
+      "https://live.ocw.mit.edu/ans7870/16/16.unified/thermoF03/chapter_6.htm",
+      "https://engineering.purdue.edu/ME200/files/homework/HW34/ME200-Spring2020-HW34-web.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kontrollvolumen-energiebilanz"
+  },
+  {
+    "slug": "kontrollvolumen-entropiebilanz",
+    "name": "Entropiebilanz am Kontrollvolumen",
+    "latex": "\\frac{dS_{CV}}{dt}=\\sum_j\\frac{\\dot Q_j}{T_{b, j}}+\\sum_{in}\\dot m_i s_i-\\sum_{out}\\dot m_o s_o+\\dot S_{gen}",
+    "symbol": "Entropiespeicherung = Wärmeentropie + Einlass − Auslass + Erzeugung",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "SCV",
+        "bedeutung": "Entropie innerhalb der gewählten Grenze",
+        "einheit": "J/K"
+      },
+      {
+        "symbol": "Q̇ⱼ",
+        "bedeutung": "Wärmeleistung an Grenze j, positiv hinein",
+        "einheit": "W"
+      },
+      {
+        "symbol": "Tb,ⱼ",
+        "bedeutung": "Absolute Temperatur an genau dieser Wärmegrenze",
+        "einheit": "K"
+      },
+      {
+        "symbol": "ṁᵢ,ṁₒ",
+        "bedeutung": "Zugeordnete positive Ein-/Ausflussbeträge",
+        "einheit": "kg/s"
+      },
+      {
+        "symbol": "sᵢ, sₒ",
+        "bedeutung": "Spezifische Entropien mit kompatibler Stoffdatenreferenz",
+        "einheit": "J/(kg·K)"
+      },
+      {
+        "symbol": "Ṡgen",
+        "bedeutung": "Nichtnegative interne Entropieerzeugung",
+        "einheit": "W/K"
+      }
+    ],
+    "quellen": [
+      "Purdue ME200 Homework34: control-volume mass, energy and entropy rate equations with boundary temperatures",
+      "Claire Yu Yan, Introduction to Engineering Thermodynamics, section6.9: open-system entropy balances"
+    ],
+    "quellenLinks": [
+      "https://engineering.purdue.edu/ME200/files/homework/HW34/ME200-Spring2020-HW34-web.html",
+      "https://pressbooks.bccampus.ca/thermo1/chapter/6-9-the-second-law-of-thermodynamics-for-open-systems/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kontrollvolumen-entropiebilanz"
+  },
+  {
+    "slug": "ficksches-gesetz-diffusionsfluss",
+    "name": "Ficksche Gesetze: Diffusionsfluss und Diffusionsgleichung",
+    "latex": "\\vec J_A=-D_{AB}\\nabla c_A,\\quad \\frac{\\partial c_A}{\\partial t}=D_{AB}\\nabla^2c_A",
+    "symbol": "J⃗A = −DAB ∇cA",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "J⃗A",
+        "bedeutung": "Stoffmengenfluss von A relativ zur mittleren Bewegung",
+        "einheit": "mol/(m²·s)"
+      },
+      {
+        "symbol": "DAB",
+        "bedeutung": "Diffusionskoeffizient von A in B",
+        "einheit": "m²/s"
+      },
+      {
+        "symbol": "cA",
+        "bedeutung": "Stoffmengenkonzentration von A",
+        "einheit": "mol/m³"
+      },
+      {
+        "symbol": "t",
+        "bedeutung": "Zeit",
+        "einheit": "s"
+      },
+      {
+        "symbol": "∇²cA",
+        "bedeutung": "Laplacian der Konzentration, räumliche Krümmung",
+        "einheit": "mol/m⁵"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 20.430J Fields, Forces, and Flows in Biological Systems, Lecture 4: Fick’s Laws and Control-Volume Mass Conservation."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/20-430j-fields-forces-and-flows-in-biological-systems-fall-2015/resources/mit20_430jf15_lecture4/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/ficksches-gesetz-diffusionsfluss"
+  },
+  {
+    "slug": "navier-stokes-inkompressibel",
+    "name": "Navier-Stokes-Gleichung für inkompressible Newtonsche Fluide",
+    "latex": "\\rho(\\partial_t\\vec v+(\\vec v\\cdot\\nabla)\\vec v)=-\\nabla p+\\mu\\nabla^2\\vec v+\\rho\\vec g,\\quad\\nabla\\cdot\\vec v=0",
+    "symbol": "ρ Dv/Dt = −∇p + μ∇²v + ρg",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ρ",
+        "bedeutung": "Konstante Fluiddichte",
+        "einheit": "kg/m³"
+      },
+      {
+        "symbol": "v",
+        "bedeutung": "Geschwindigkeitsfeld",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "p",
+        "bedeutung": "Druckfeld",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "μ",
+        "bedeutung": "Dynamische Viskosität",
+        "einheit": "Pa·s"
+      },
+      {
+        "symbol": "g",
+        "bedeutung": "Gravitationsbeschleunigung als Vektor",
+        "einheit": "m/s²"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 2.20 Marine Hydrodynamics, Lecture 4: Navier–Stokes equations for incompressible Newtonian fluid."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-20-marine-hydrodynamics-13-021-spring-2005/1ca2256ce5f7a6ce1b3b42d4f8198e84_lecture4.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/navier-stokes-inkompressibel"
+  },
+  {
+    "slug": "mach-zahl",
+    "name": "Mach-Zahl",
+    "latex": "Ma=\\frac{v}{a},\\qquad a=\\sqrt{\\gamma R_sT}",
+    "symbol": "Ma = v/a",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Ma",
+        "bedeutung": "Lokales Geschwindigkeitsverhältnis zur Schallgeschwindigkeit",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "v",
+        "bedeutung": "Strömungsgeschwindigkeit relativ zum Medium",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Lokale Schallgeschwindigkeit",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "γ",
+        "bedeutung": "Verhältnis der Wärmekapazitäten \\(\\frac{cp}{cv}\\)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "Rs,T",
+        "bedeutung": "Spezifische Gaskonstante und absolute Temperatur",
+        "einheit": "J/(kg·K), K"
+      }
+    ],
+    "quellen": [
+      "NASA Glenn Research Center, Wind-US User’s Guide: Geometry and Flow Physics Modeling (local speed of sound and Mach number)."
+    ],
+    "quellenLinks": [
+      "https://www.grc.nasa.gov/WWW/winddocs/windus3.0/user/physical.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/mach-zahl"
+  },
+  {
+    "slug": "froude-zahl",
+    "name": "Froude-Zahl",
+    "latex": "Fr=\\frac{U}{\\sqrt{gL}}",
+    "symbol": "Fr = U/√(gL)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Fr",
+        "bedeutung": "Froude-Zahl für die gewählte charakteristische Skala",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "U",
+        "bedeutung": "Charakteristische Geschwindigkeit",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "g",
+        "bedeutung": "Schwerebeschleunigung",
+        "einheit": "m/s²"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Charakteristische Länge, etwa Wasserlinienlänge",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 2.154 Maneuvering and Control of Surface and Underwater Vehicles, notes §5.2: Common Groups in Marine Engineering."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-154-maneuvering-and-control-of-surface-and-underwater-vehicles-13-49-fall-2004/2609f8b1bdebe4566891080afe007f51_1349_notes.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/froude-zahl"
+  },
+  {
+    "slug": "schwerpunkt-flaechenmoment",
+    "name": "Flächenschwerpunkt und erstes Flächenmoment",
+    "latex": "\\bar{x}=\\frac{\\sum_i A_i x_i}{\\sum_i A_i},\\quad \\bar{y}=\\frac{\\sum_i A_i y_i}{\\sum_i A_i},\\quad Q_x=\\int_A y\\,dA=A\\bar{y}",
+    "symbol": "x̄=ΣAᵢxᵢ/A; ȳ=ΣAᵢyᵢ/A; Qx=Aȳ",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Aᵢ",
+        "bedeutung": "Fläche des disjunkten Teilbereichs i",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "xᵢ,yᵢ",
+        "bedeutung": "Koordinaten des Schwerpunkts von Teilbereich i",
+        "einheit": "m"
+      },
+      {
+        "symbol": "x̄,ȳ",
+        "bedeutung": "Koordinaten des Schwerpunkts der Gesamtfläche",
+        "einheit": "m"
+      },
+      {
+        "symbol": "Qx",
+        "bedeutung": "Erstes Flächenmoment um die x-Achse, definiert als Integral von y über A",
+        "einheit": "m³"
+      },
+      {
+        "symbol": "Qy",
+        "bedeutung": "Erstes Flächenmoment um die y-Achse, definiert als Integral von x über A",
+        "einheit": "m³"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, Unified Engineering, M5 Simple Beam Theory (continued), center of area and centroid by area moments.",
+      "TU Braunschweig, Maschinenbau (B.Sc.), Grundlagen: Curriculumnachweis für Technische Mechanik; keine Herleitung der Formel."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/f66f80cd5fbd5cf8295d7b1e1e28a368_gm5_8_notes.pdf",
+      "https://www.tu-braunschweig.de/fmb/studium/bachelor/maschinenbau"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/schwerpunkt-flaechenmoment"
+  },
+  {
+    "slug": "routh-hurwitz-stabilitaetskriterium",
+    "name": "Routh-Hurwitz-Stabilitätskriterium",
+    "latex": "p(s)=s^3+a_2s^2+a_1s+a_0;\\quad R_1=1,\\ R_2=a_2,\\ R_3=\\frac{a_2a_1-a_0}{a_2},\\ R_4=a_0",
+    "symbol": "Für kubisch: a₂>0, a₁>0, a₀>0 und a₂a₁>a₀",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "p(s)",
+        "bedeutung": "Reelles charakteristisches Polynom des kontinuierlichen LTI-Systems",
+        "einheit": "Polynom in s"
+      },
+      {
+        "symbol": "s",
+        "bedeutung": "Laplace-Variable bzw. Polstelle; \\(\\Re{}(s)>0\\) bedeutet rechte Halbebene",
+        "einheit": "s⁻¹"
+      },
+      {
+        "symbol": "a₂,a₁,a₀",
+        "bedeutung": "Reelle Koeffizienten des normierten kubischen charakteristischen Polynoms",
+        "einheit": "passende Potenzen von s"
+      },
+      {
+        "symbol": "Rᵢ",
+        "bedeutung": "Einträge der ersten Spalte der kubischen Routh-Tabelle",
+        "einheit": "Vorzeichenwert"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 2.004 Dynamics and Control II, Lecture 25: system stability and Routh–Hurwitz criterion.",
+      "TU Braunschweig, Maschinenbau (B.Sc.), Grundlagen: Curriculumnachweis für Mess- und Regelungstechnik; keine Herleitung des Kriteriums."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-004-dynamics-and-control-ii-spring-2008/resources/lecture_25/",
+      "https://www.tu-braunschweig.de/fmb/studium/bachelor/maschinenbau"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/routh-hurwitz-stabilitaetskriterium"
+  },
+  {
+    "slug": "bode-verstaerkungs-phasenreserve",
+    "name": "Bode-Diagramm: Verstärkungs- und Phasenreserve",
+    "latex": "\\mathrm{PM}=180^\\circ+\\arg L(j\\omega_{gc}),\\quad \\mathrm{GM}=1/|L(j\\omega_{pc})|",
+    "symbol": "PM = 180° + φ bei |L|=1; GM = 1/|L| bei φ=−180°",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "L(jω)",
+        "bedeutung": "Offene Schleifenübertragungsfunktion bei Kreisfrequenz ω",
+        "einheit": "dimensionsloser Übertragungsfaktor"
+      },
+      {
+        "symbol": "ωgc",
+        "bedeutung": "Durchtrittsfrequenz mit \\(|L|=1 (0 dB)\\)",
+        "einheit": "rad/s"
+      },
+      {
+        "symbol": "ωpc",
+        "bedeutung": "Phasendurchtrittsfrequenz mit Phase −180°",
+        "einheit": "rad/s"
+      },
+      {
+        "symbol": "PM",
+        "bedeutung": "Phasenreserve bei ωgc",
+        "einheit": "°"
+      },
+      {
+        "symbol": "GM",
+        "bedeutung": "Verstärkungsfaktor bis zum kritischen Betrag bei ωpc",
+        "einheit": "dimensionslos oder dB"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 2.004 Systems Modeling and Control II, Lecture 32: gain and phase margins (Fachquelle).",
+      "TU Braunschweig, Maschinenbau (B.Sc.), Mess- und Regelungstechnik (Curriculumnachweis; keine Formelherleitung)."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-004-systems-modeling-and-control-ii-fall-2007/8c15f4312a7b9030915dfd84710aa644_lecture32.pdf",
+      "https://www.tu-braunschweig.de/fmb/studium/bachelor/maschinenbau"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/bode-verstaerkungs-phasenreserve"
+  },
+  {
+    "slug": "basquin-gesetz-ermuedungsfestigkeit",
+    "name": "Basquin-Beziehung für die Ermüdungsfestigkeit",
+    "latex": "\\sigma_a=\\sigma_f\\prime(2N_f)^b",
+    "symbol": "σₐ = σ′f (2Nf)ᵇ",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σa",
+        "bedeutung": "Spannungsamplitude des vollständig umkehrenden Lastzyklus",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "σ′f",
+        "bedeutung": "Werkstoffkoeffizient der Spannungs-Lebensdauer-Kurve in der verwendeten Spannungseinheit",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "Nf",
+        "bedeutung": "Lastspiele bis zum definierten Ermüdungsversagen",
+        "einheit": "Lastspiele"
+      },
+      {
+        "symbol": "b",
+        "bedeutung": "Werkstoffexponent der Basquin-Geraden",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 2.002, Mechanics and Materials II, Lecture 21: fatigue and the Basquin stress-life relation."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-002-mechanics-and-materials-ii-spring-2004/db45866e2fc0cf164d96828936748e8f_lec21_notes.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/basquin-gesetz-ermuedungsfestigkeit"
+  },
+  {
+    "slug": "lame-druckzylinder",
+    "name": "Lamé-Gleichungen für dickwandige Zylinder",
+    "latex": "\\sigma_r=A-\\frac{B}{r^2},\\quad \\sigma_\\theta=A+\\frac{B}{r^2}",
+    "symbol": "σr = A − B/r²; σθ = A + B/r²",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σr",
+        "bedeutung": "Radialspannung, Zug positiv",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "σθ",
+        "bedeutung": "Umfangs- oder Ringspannung",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "a,b",
+        "bedeutung": "Innen- und Außenradius",
+        "einheit": "m"
+      },
+      {
+        "symbol": "pi,po",
+        "bedeutung": "Innen- und Außendruck",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Radialposition \\(a\\le{}r\\le{}b\\)",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare / Roylance, Mechanics of Materials, Closed-Form Solutions: thick-walled cylinders.",
+      "TU Braunschweig, B.Sc. Maschinenbau curriculum: Werkstoffmechanik/Festigkeitslehre."
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Mechanics_of_Materials_%28Roylance%29/05%3A_General_Stress_Analysis/5.01%3A_Closed-Form_Solutions",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/lame-druckzylinder"
+  },
+  {
+    "slug": "goodman-ermuedungsnachweis",
+    "name": "Goodman-Diagramm: Ermüdungsnachweis",
+    "latex": "\\frac{\\sigma_a}{S_e}+\\frac{\\sigma_m}{S_{ut}}\\le 1",
+    "symbol": "σa/Se + σm/Sut ≤ 1",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σa",
+        "bedeutung": "Spannungsamplitude des Wechselanteils",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "σm",
+        "bedeutung": "Mittelspannung des Lastzyklus",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "Se",
+        "bedeutung": "verwendete korrigierte Dauerfestigkeitsgrenze",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "Sut",
+        "bedeutung": "Zugfestigkeit des Werkstoffs",
+        "einheit": "Pa"
+      }
+    ],
+    "quellen": [
+      "David Roylance, MIT Mechanics of Materials §6.5 Fatigue: mean stress, Goodman relation, and distinct static/fatigue assumptions; LibreTexts textbook mirror",
+      "TU Braunschweig, B.Sc. Maschinenbau curriculum: Werkstoffmechanik/Festigkeitslehre."
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Mechanics_of_Materials_%28Roylance%29/06%3A_Yield_and_Fracture/6.05%3A_Fatigue",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/goodman-ermuedungsnachweis"
+  },
+  {
+    "slug": "capstan-seilreibung",
+    "name": "Euler-Eytelwein-Gleichung (Capstan)",
+    "latex": "\\frac{T_1}{T_2}=e^{\\mu\\beta}",
+    "symbol": "T1/T2 = e^(μβ)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-maschinenelemente",
+    "unterkategorie": "Maschinenelemente",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "T1",
+        "bedeutung": "Zugkraft auf der straffen Seite",
+        "einheit": "N"
+      },
+      {
+        "symbol": "T2",
+        "bedeutung": "Zugkraft auf der losen Seite",
+        "einheit": "N"
+      },
+      {
+        "symbol": "μ",
+        "bedeutung": "Reibungskoeffizient zwischen Seil und Oberfläche",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "β",
+        "bedeutung": "Umschlingungswinkel",
+        "einheit": "rad"
+      }
+    ],
+    "quellen": [
+      "Colorado State University, Engineering Statics: Flexible Belt Friction.",
+      "TU Braunschweig, B.Sc. Maschinenbau curriculum: Technische Mechanik/Maschinenelemente."
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Engineering_Statics%3A_Open_and_Interactive_%28Baker_and_Haynes%29/09%3A_Friction/9.01%3A_Friction/9.1.05%3A_Flexible_Belt",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/capstan-seilreibung"
+  },
+  {
+    "slug": "colebrook-white-rohrreibung",
+    "name": "Colebrook-White-Gleichung",
+    "latex": "\\frac{1}{\\sqrt f}=-2\\log_{10}\\left(\\frac{\\varepsilon}{3.7D}+\\frac{2.51}{Re\\sqrt f}\\right)",
+    "symbol": "1/√f = −2 log₁₀(ε/(3,7D)+2,51/(Re√f))",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "f",
+        "bedeutung": "Darcy-Weisbach-Reibungsbeiwert",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "ε",
+        "bedeutung": "äquivalente absolute Rohrrauheit",
+        "einheit": "m"
+      },
+      {
+        "symbol": "D",
+        "bedeutung": "Rohrinnendurchmesser",
+        "einheit": "m"
+      },
+      {
+        "symbol": "Re",
+        "bedeutung": "Rohr-Reynolds-Zahl",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "Sape Miedema, TU Delft, Pressure Losses with Homogeneous Liquid Flow, The Darcy-Weisbach Friction Factor.",
+      "Idaho National Laboratory MOOSE, ADWallFrictionColebrookWhiteMaterial, exact Colebrook residual test."
+    ],
+    "quellenLinks": [
+      "https://eng.libretexts.org/Bookshelves/Civil_Engineering/Slurry_Transport_%28Miedema%29/03%3A_Pressure_Losses_with_Homogeneous_Liquid_Flow/3.02%3A_The_Darcy-Weisbach_Friction_Factor",
+      "https://mooseframework.inl.gov/source/materials/ADWallFrictionColebrookWhiteMaterial.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/colebrook-white-rohrreibung"
+  },
+  {
+    "slug": "castiglianos-zweiter-satz",
+    "name": "Castiglianos zweiter Satz",
+    "latex": "\\delta_i=\\frac{\\partial U}{\\partial F_i}",
+    "symbol": "δi = ∂U/∂Fi",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "δi",
+        "bedeutung": "Verschiebung am Angriffspunkt in Richtung der Kraft Fi",
+        "einheit": "m"
+      },
+      {
+        "symbol": "U",
+        "bedeutung": "elastische Verformungsenergie des Systems",
+        "einheit": "J"
+      },
+      {
+        "symbol": "Fi",
+        "bedeutung": "generalisierte Kraft, nach der abgeleitet wird",
+        "einheit": "N"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 2.001, Mechanics & Materials I: Energy Methods and Castigliano’s Theorem.",
+      "TU Braunschweig, B.Sc. Maschinenbau curriculum: Technische Mechanik/Festigkeitslehre."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/pages/lecture-notes/",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/castiglianos-zweiter-satz"
+  },
+  {
+    "slug": "zylindrischer-waermeleitwiderstand",
+    "name": "Zylindrischer Wärmeleitwiderstand",
+    "latex": "R_\\mathrm{th}=\\frac{\\ln(r_2/r_1)}{2\\pi kL}",
+    "symbol": "Rth = ln(r₂/r₁)/(2πkL)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Rth",
+        "bedeutung": "Wärmeleitwiderstand der Zylinderschicht",
+        "einheit": "K/W"
+      },
+      {
+        "symbol": "r1,r2",
+        "bedeutung": "innerer und äußerer Radius",
+        "einheit": "m"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Wärmeleitfähigkeit",
+        "einheit": "W/(m·K)"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Zylinderlänge",
+        "einheit": "m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 3.185, Lecture Notes §2.1: 1-D Cartesian and Cylindrical Steady-State.",
+      "TU Braunschweig, B.Sc. Maschinenbau curriculum: Wärmeübertragung."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/3-185-transport-phenomena-in-materials-engineering-fall-2003/pages/lecture-notes/",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/zylindrischer-waermeleitwiderstand"
+  },
+  {
+    "slug": "operationsverstaerker-verstaerkung",
+    "name": "Ideale Operationsverstärker-Verstärkung",
+    "latex": "A_v=-\\frac{R_f}{R_{in}}\\quad\\text{or}\\quad A_v=1+\\frac{R_f}{R_g}",
+    "symbol": "Invertierend: −Rf/Rin; nichtinvertierend: 1+Rf/Rg",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Av",
+        "bedeutung": "geschlossene Spannungsverstärkung Vout/Vin",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "Rf",
+        "bedeutung": "Rückkopplungswiderstand",
+        "einheit": "Ω"
+      },
+      {
+        "symbol": "Rin",
+        "bedeutung": "Eingangswiderstand beim invertierenden Verstärker",
+        "einheit": "Ω"
+      },
+      {
+        "symbol": "Rg",
+        "bedeutung": "Widerstand vom invertierenden Eingang zur Referenz",
+        "einheit": "Ω"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.101, Inverting Amplifier handout and analog electronics study materials.",
+      "TU Braunschweig, B.Sc. Maschinenbau curriculum: Elektrotechnik/Regelung (curriculum relevance only)."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-101-introductory-analog-electronics-laboratory-spring-2007/27c0ef0f6bb3cccf34f76b73527bceaf_inv_amp.pdf",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/operationsverstaerker-verstaerkung"
+  },
+  {
+    "slug": "shockley-diodengleichung",
+    "name": "Shockley-Diodengleichung",
+    "latex": "I_D=I_S\\left(e^{V_D/(nV_T)}-1\\right),\\quad V_T=\\frac{kT}{q}",
+    "symbol": "ID = IS(exp(VD/(nVT)) − 1)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Elektrotechnik/Regelung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ID",
+        "bedeutung": "Diodenstrom in Durchlassrichtung positiv",
+        "einheit": "A"
+      },
+      {
+        "symbol": "IS",
+        "bedeutung": "Sperrsättigungsstrom des Modells",
+        "einheit": "A"
+      },
+      {
+        "symbol": "VD",
+        "bedeutung": "Spannung über der Diode",
+        "einheit": "V"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Idealfaktor der Diode",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "VT",
+        "bedeutung": "thermische Spannung \\(\\frac{kT}{q}\\)",
+        "einheit": "V"
+      }
+    ],
+    "quellen": [
+      "C. A. Ross, MIT3.15: pn Junctions, Handout3",
+      "MIT OpenCourseWare 6.101, Introductory Analog Electronics Laboratory (curriculum reference)."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/3-15-electrical-optical-magnetic-materials-and-devices-fall-2006/7cc1e94191cd88d82d1385eeac20bb98_lecture4_5_6.pdf",
+      "https://ocw.mit.edu/courses/6-101-introductory-analog-electronics-laboratory-spring-2007/pages/study-materials/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/shockley-diodengleichung"
+  },
+  {
+    "slug": "kritisches-duesen-druckverhaeltnis-massenstrom",
+    "name": "Kritisches Druckverhältnis und abgewürgter Düsenmassenstrom",
+    "latex": "\\frac{p^*}{p_0}=\\left(\\frac{2}{\\gamma+1}\\right)^{\\!\\gamma/(\\gamma-1)},\\quad \\dot m=A_t\\frac{p_0}{\\sqrt{T_0}}\\sqrt{\\frac{\\gamma}{R}}\\left(\\frac{2}{\\gamma+1}\\right)^{\\!\\frac{\\gamma+1}{2(\\gamma-1)}}",
+    "symbol": "p*/p₀; ṁ* bei M=1 am Hals",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "p*",
+        "bedeutung": "Kritischer statischer Druck am Hals",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "p₀",
+        "bedeutung": "Absoluter Stagnationsdruck vor der idealen Düse",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "T₀",
+        "bedeutung": "Stagnationstemperatur",
+        "einheit": "K"
+      },
+      {
+        "symbol": "Aₜ",
+        "bedeutung": "Halsfläche",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "γ",
+        "bedeutung": "Konstantes Verhältnis der spezifischen Wärmekapazitäten \\(c_p/c_v\\)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Spezifische Gaskonstante",
+        "einheit": "J/(kg·K)"
+      },
+      {
+        "symbol": "ṁ",
+        "bedeutung": "Massenstrom durch den kritischen Hals",
+        "einheit": "kg/s"
+      }
+    ],
+    "quellen": [
+      "NASA Glenn Research Center, Mass Flow Rate Equations: compressible flow and choked mass-flow limit at M=1.",
+      "NASA Glenn Research Center, Nozzle Design: sonic throat and isentropic nozzle flow.",
+      "TU Braunschweig, B.Sc. Maschinenbau, Strömungsmechanik und thermische Strömungsmaschinen (Curriculumnachweis)."
+    ],
+    "quellenLinks": [
+      "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/mass-flow-rate-equations/",
+      "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/nozzle-design/",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kritisches-duesen-druckverhaeltnis-massenstrom"
+  },
+  {
+    "slug": "netto-waermestrahlung-sichtfaktoren",
+    "name": "Netto-Wärmestrahlung zwischen grauen Flächen",
+    "latex": "\\dot Q_{12}=\\frac{\\sigma(T_1^4-T_2^4)}{\\frac{1-\\varepsilon_1}{A_1\\varepsilon_1}+\\frac{1}{A_1F_{12}}+\\frac{1-\\varepsilon_2}{A_2\\varepsilon_2}}",
+    "symbol": "Strahlungsnetzwerk mit Sichtfaktor F₁₂",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärme/Thermodynamik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Q̇12",
+        "bedeutung": "Netto-Strahlungswärmestrom von Fläche 1 zu 2",
+        "einheit": "W"
+      },
+      {
+        "symbol": "σ",
+        "bedeutung": "Stefan-Boltzmann-Konstante",
+        "einheit": "W/(m²·K⁴)"
+      },
+      {
+        "symbol": "T1,T2",
+        "bedeutung": "Absolute Oberflächentemperaturen",
+        "einheit": "K"
+      },
+      {
+        "symbol": "ε1,ε2",
+        "bedeutung": "Hemisphärische Emissionsgrade der grauen Flächen",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "A1,A2",
+        "bedeutung": "Austauschflächen",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "F12",
+        "bedeutung": "Sichtfaktor von Fläche 1 auf Fläche 2",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 3.185, Transport Phenomena in Materials Engineering, radiation exchange and view factors.",
+      "TU Braunschweig, B.Sc. Maschinenbau, Wärmeübertragung (Curriculumnachweis)."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/3-185-transport-phenomena-in-materials-engineering-fall-2003/6e459228e4e97c9c29e50c481b262c5c_lectures.pdf",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/netto-waermestrahlung-sichtfaktoren"
+  },
+  {
+    "slug": "tresca-fliessbedingung-maximalschub",
+    "name": "Tresca-Fließbedingung (Maximalschubspannung)",
+    "latex": "\\sigma_T=\\max(|\\sigma_1-\\sigma_2|,|\\sigma_2-\\sigma_3|,|\\sigma_3-\\sigma_1|)\\le Y",
+    "symbol": "Größte Hauptspannungsdifferenz σT ≤ Y",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "σ₁, σ₂, σ₃",
+        "bedeutung": "Hauptspannungen im betrachteten Punkt",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "σT",
+        "bedeutung": "Größte absolute Hauptspannungsdifferenz",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "Y",
+        "bedeutung": "Einachsige Streckgrenze des Werkstoffs",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "τmax",
+        "bedeutung": "Maximale Schubspannung über alle räumlichen Flächen: \\(\\tau_{\\max}=\\sigma_T/2\\).",
+        "einheit": "Pa"
+      }
+    ],
+    "quellen": [
+      "Jönköping University Applied Mechanics 8.10: Tresca, von Mises and hydrostatic invariance, equations 8.10.5–8.10.19",
+      "TU Braunschweig, B.Sc. Maschinenbau, Werkstoffmechanik und Festigkeitslehre (Curriculumnachweis)."
+    ],
+    "quellenLinks": [
+      "https://mechanics.ju.se/SolidMechanics/YieldCriteria.html",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/tresca-fliessbedingung-maximalschub"
+  },
+  {
+    "slug": "ergun-gleichung-druckverlust-festbett",
+    "name": "Ergun-Gleichung für den Druckverlust im Festbett",
+    "latex": "\\frac{\\Delta p}{L}=150\\frac{(1-\\varepsilon)^2}{\\varepsilon^3}\\frac{\\mu u_s}{d_p^2}+1.75\\frac{1-\\varepsilon}{\\varepsilon^3}\\frac{\\rho u_s^2}{d_p}",
+    "symbol": "Viskoser plus inertialer Beitrag im Partikelbett",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-fluidtechnik",
+    "unterkategorie": "Strömung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Δp/L",
+        "bedeutung": "Druckabfall pro Bettlänge",
+        "einheit": "Pa/m"
+      },
+      {
+        "symbol": "ε",
+        "bedeutung": "Bettporosität bzw. Hohlraumanteil",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "μ",
+        "bedeutung": "Dynamische Fluidviskosität",
+        "einheit": "Pa·s"
+      },
+      {
+        "symbol": "us",
+        "bedeutung": "Superficial velocity bezogen auf leeren Behälterquerschnitt",
+        "einheit": "m/s"
+      },
+      {
+        "symbol": "dp",
+        "bedeutung": "Charakteristischer Partikeldurchmesser",
+        "einheit": "m"
+      },
+      {
+        "symbol": "ρ",
+        "bedeutung": "Fluiddichte",
+        "einheit": "kg/m³"
+      }
+    ],
+    "quellen": [
+      "Ergun, S. (1952), Fluid Flow Through Packed Columns, Chemical Engineering Progress 48(2), 89–94; equation reproduced in Ankara University Chemical Engineering Laboratory Manual, Fixed Bed Pressure Drop.",
+      "TU Braunschweig, B.Sc. Maschinenbau, Strömungsmechanik/Verfahrenstechnik (Curriculumnachweis)."
+    ],
+    "quellenLinks": [
+      "https://chem.eng.ankara.edu.tr/wp-content/uploads/sites/755/2021/02/Laboratory-Manual-17.02.2021.pdf",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/ergun-gleichung-druckverlust-festbett"
+  },
+  {
+    "slug": "stab-elementsteifigkeitsmatrix-1d",
+    "name": "Steifigkeitsmatrix des linearen 1D-Stabelements",
+    "latex": "\\mathbf{k}_e=\\frac{EA}{L}\\begin{bmatrix}1&-1\\\\-1&1\\end{bmatrix}",
+    "symbol": "ke = EA/L · [[1,−1],[−1,1]]",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Mechanik/Statik",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "ke",
+        "bedeutung": "Elementsteifigkeitsmatrix im lokalen Koordinatensystem",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Elastizitätsmodul",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "Konstante Querschnittsfläche",
+        "einheit": "m²"
+      },
+      {
+        "symbol": "L",
+        "bedeutung": "Elementlänge",
+        "einheit": "m"
+      },
+      {
+        "symbol": "u1,u2",
+        "bedeutung": "Axiale Knotenverschiebungen",
+        "einheit": "m"
+      },
+      {
+        "symbol": "f1,f2",
+        "bedeutung": "Knotenkräfte des Elements",
+        "einheit": "N"
+      }
+    ],
+    "quellen": [
+      "University of Alberta, Engineering at Alberta Courses: One-Dimensional Linear Elements"
+    ],
+    "quellenLinks": [
+      "https://engcourses-uofa.ca/books/introduction-to-solid-mechanics/finite-element-analysis/fea-in-one-dimension/one-dimensional-linear-elements/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/stab-elementsteifigkeitsmatrix-1d"
+  },
+  {
+    "slug": "kirsch-spannungskonzentration-kreisloch",
+    "name": "Kirsch-Lösung: Spannungskonzentration am Kreisloch",
+    "latex": "K_t=\\frac{\\sigma_{\\theta,\\max}}{\\sigma_\\infty}=3,\\quad \\sigma_{\\theta\\theta}(a,\\theta)=\\sigma_\\infty(1-2\\cos 2\\theta)",
+    "symbol": "Kt=3 für ein Kreisloch in unendlicher Platte",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Festigkeit/Werkstoffe",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Kt",
+        "bedeutung": "Elastischer Spannungskonzentrationsfaktor",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "σθθ",
+        "bedeutung": "Umfangsspannung am Lochrand",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "σ∞",
+        "bedeutung": "Fernspannung in der ungestörten Platte",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Lochradius",
+        "einheit": "m"
+      },
+      {
+        "symbol": "θ",
+        "bedeutung": "Polarwinkel ab Lastachse",
+        "einheit": "rad"
+      }
+    ],
+    "quellen": [
+      "Jönköping University, Applied Mechanics, Stress Concentration around a Circular Hole (Kirsch solution).",
+      "TU Braunschweig, B.Sc. Maschinenbau, Festigkeitslehre und Werkstoffmechanik (Curriculumnachweis)."
+    ],
+    "quellenLinks": [
+      "https://mechanics.ju.se/SolidMechanics/StressConcentration.html",
+      "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Bachelor_MB_ab_WS_22_23/Curriculum_BSc_MB_Fachprofil_WS.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kirsch-spannungskonzentration-kreisloch"
+  },
+  {
+    "slug": "bipolartransistor-grundmodelle",
+    "name": "Bipolartransistor: Betriebsbereiche und Kleinsignal",
+    "latex": "I_C\\simeq\\beta I_B,\\quad g_m=I_C/U_T,\\quad r_\\pi=\\beta/g_m",
+    "symbol": "IC ≈ βIB; gm = IC/UT",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Halbleiterschaltungen",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "I_C",
+        "bedeutung": "Kollektor-Arbeitspunktstrom",
+        "einheit": "A"
+      },
+      {
+        "symbol": "β",
+        "bedeutung": "Stromverstärkung im gewählten Modell",
+        "einheit": "1"
+      },
+      {
+        "symbol": "U_T",
+        "bedeutung": "thermische Spannung",
+        "einheit": "V"
+      },
+      {
+        "symbol": "g_m",
+        "bedeutung": "Kleinsignalsteilheit",
+        "einheit": "S"
+      }
+    ],
+    "quellen": [
+      "MIT 6.012: Lecture 7, Bipolar Junction Transistors",
+      "MIT 6.012: Lecture 11, BJT operating regions"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2009/bde60d83e3f4efc09c880c343def3131_MIT6_012F09_lec07.pdf",
+      "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2009/33eea31f564b67fc47cd9c2796500669_MIT6_012F09_lec11.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/bipolartransistor-grundmodelle"
+  },
+  {
+    "slug": "mosfet-grundmodelle",
+    "name": "MOSFET: Langkanal-Grundmodelle",
+    "latex": "I_D=K[(V_{GS}-V_T)V_{DS}-V_{DS}^2/2];\\quad I_{D,sat}=\\frac K2(V_{GS}-V_T)^2",
+    "symbol": "ID = K(VOV VDS−VDS²/2); IDsat = K VOV²/2",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Halbleiterschaltungen",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "K",
+        "bedeutung": "Langkanalparameter ohne Faktor 1/2",
+        "einheit": "A/V²"
+      },
+      {
+        "symbol": "V_OV",
+        "bedeutung": "Gate-Übersteuerung",
+        "einheit": "V"
+      },
+      {
+        "symbol": "V_DS",
+        "bedeutung": "Drain-Source-Spannung",
+        "einheit": "V"
+      }
+    ],
+    "quellen": [
+      "MIT 6.012: Lecture 11, MOSFETs II, Large Signal Models"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2009/33eea31f564b67fc47cd9c2796500669_MIT6_012F09_lec11.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/mosfet-grundmodelle"
+  },
+  {
+    "slug": "z-transformation",
+    "name": "z-Transformation und Konvergenzbereich",
+    "latex": "X(z)=\\sum_{k=-\\infty}^{\\infty}x[k]z^{-k}",
+    "symbol": "X(z) = Σx[k]z⁻ᵏ",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Zeitdiskrete Systeme",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "z",
+        "bedeutung": "komplexe Transformationsvariable",
+        "einheit": "1"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "ganzzahliger Folgeindex",
+        "einheit": "1"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Pol der einfachen Folge",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "MIT 6.003: Lecture 5, Z Transform and Region of Convergence"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/64490a008c1c5c25c86044351465abf7_MIT6_003F11_lec05.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/z-transformation"
+  },
+  {
+    "slug": "zustandsraum-steuerbarkeit-beobachtbarkeit",
+    "name": "Zustandsraum: Steuerbarkeit und Beobachtbarkeit",
+    "latex": "\\dot x=Ax+Bu,\\ y=Cx+Du;\\quad\\operatorname{rang}[B,AB,\\ldots,A^{n-1}B]=n",
+    "symbol": "ẋ = Ax+Bu; y = Cx+Du",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Regelungstechnik",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "A",
+        "bedeutung": "Systemmatrix",
+        "einheit": "variabel"
+      },
+      {
+        "symbol": "B",
+        "bedeutung": "Eingangsmatrix",
+        "einheit": "variabel"
+      },
+      {
+        "symbol": "C",
+        "bedeutung": "Ausgangsmatrix",
+        "einheit": "variabel"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Zustandsdimension",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "MIT 12.864: 4.6 Controllability and Observability (pp. 247–249)"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/12-864-inference-from-data-and-models-spring-2005/8e389f646ec584ad6d3d50912bdd97aa_contrl_obser_4_6.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/zustandsraum-steuerbarkeit-beobachtbarkeit"
+  },
+  {
+    "slug": "nyquist-stabilitaetskriterium",
+    "name": "Nyquist-Stabilitätskriterium",
+    "latex": "Z=P+N_{\\rm cw}",
+    "symbol": "Z = P + Ncw",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-elektrotechnik-regelung",
+    "unterkategorie": "Frequenzgang und Stabilität",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "P",
+        "bedeutung": "offene Pole in der rechten Halbebene",
+        "einheit": "1"
+      },
+      {
+        "symbol": "N_cw",
+        "bedeutung": "signierte Uhrzeigersinn-Umläufe",
+        "einheit": "1"
+      },
+      {
+        "symbol": "Z",
+        "bedeutung": "geschlossene Pole in der rechten Halbebene",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "University of Illinois ECE486,lecture18 Nyquist criterion, clockwise-positive convention"
+    ],
+    "quellenLinks": [
+      "https://courses.physics.illinois.edu/ece486/fa2026/documentation/handbook/lec18.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/nyquist-stabilitaetskriterium"
+  },
+  {
+    "slug": "polytrope-zustandsaenderung",
+    "name": "Polytrope Zustandsänderung und Arbeit",
+    "latex": "pV^n=C;\\quad W_{1\\to2}=\\frac{p_2V_2-p_1V_1}{1-n}\\ (n\\ne1),\\quad W_{n=1}=p_1V_1\\ln(V_2/V_1)",
+    "symbol": "pVⁿ = C; W = (p₂V₂−p₁V₁)/(1−n)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Technische Thermodynamik",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "n",
+        "bedeutung": "Polytropenexponent",
+        "einheit": "1"
+      },
+      {
+        "symbol": "p",
+        "bedeutung": "Absolutdruck",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "V",
+        "bedeutung": "Volumen",
+        "einheit": "m³"
+      },
+      {
+        "symbol": "W",
+        "bedeutung": "abgegebene Volumenarbeit",
+        "einheit": "J"
+      }
+    ],
+    "quellen": [
+      "Simon Fraser University, First Law of Thermodynamics: closed systems, polytropic work"
+    ],
+    "quellenLinks": [
+      "https://www.sfu.ca/~mbahrami/ENSC%20388/Notes/First%20Law%20of%20Thermodynamics_Closed%20Systems.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/polytrope-zustandsaenderung"
+  },
+  {
+    "slug": "ideale-kreisprozesse-otto-diesel-brayton-rankine",
+    "name": "Ideale Kreisprozesse: Otto, Diesel, Brayton und Rankine",
+    "latex": "\\eta_O=1-r^{1-\\kappa};\\quad\\eta_B=1-r_p^{-(\\kappa-1)/\\kappa};\\quad\\eta_R=\\frac{(h_3-h_4)-(h_2-h_1)}{h_3-h_2}",
+    "symbol": "η = Wnet/Qin; separate Otto/Diesel/Brayton/Rankine models",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Wärmekraftprozesse",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "η",
+        "bedeutung": "thermischer Wirkungsgrad",
+        "einheit": "1"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Otto-Volumenverdichtungsverhältnis",
+        "einheit": "1"
+      },
+      {
+        "symbol": "r_p",
+        "bedeutung": "Brayton-Druckverhältnis",
+        "einheit": "1"
+      },
+      {
+        "symbol": "κ",
+        "bedeutung": "Wärmekapazitätsverhältnis",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "MIT Unified Thermodynamics: 3.5 The Otto Cycle",
+      "MIT Unified Thermodynamics: 3.6 Diesel Cycle",
+      "MIT Unified Thermodynamics: 3.7 Brayton Cycle",
+      "MIT Unified Thermodynamics: 8.5 Rankine Power Cycles"
+    ],
+    "quellenLinks": [
+      "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node26.html",
+      "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node27.html",
+      "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node28.html",
+      "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node65.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/ideale-kreisprozesse-otto-diesel-brayton-rankine"
+  },
+  {
+    "slug": "feuchte-luft-psychrometrie",
+    "name": "Feuchte Luft und Psychrometrie",
+    "latex": "\\varphi=p_v/p_{ws}(T),\\quad w=0.621945\\frac{p_v}{p-p_v},\\quad h\\simeq1.006t+w(2501+1.86t)",
+    "symbol": "φ = pv/pws; w = 0.621945 pv/(p−pv)",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-thermodynamik-transport",
+    "unterkategorie": "Feuchte Luft",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "φ",
+        "bedeutung": "relative Feuchte als Anteil",
+        "einheit": "1"
+      },
+      {
+        "symbol": "p_v",
+        "bedeutung": "Wasserdampfpartialdruck",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "p",
+        "bedeutung": "Gesamtdruck",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "w",
+        "bedeutung": "Wasser pro Trockenluftmasse",
+        "einheit": "kg/kg"
+      }
+    ],
+    "quellen": [
+      "ASHRAE Handbook2021 Fundamentals, chapter1 Psychrometrics"
+    ],
+    "quellenLinks": [
+      "https://handbook.ashrae.org/Handbooks/F21/SI/F21_Ch01/F21_Ch01_si.aspx"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/feuchte-luft-psychrometrie"
+  },
+  {
+    "slug": "mehrfreiheitsgrad-schwingungen",
+    "name": "Mehrfreiheitsgrad-Schwingungen und Normalmoden",
+    "latex": "M\\ddot q+Kq=0,\\quad(K-\\omega^2M)\\phi=0",
+    "symbol": "M d²q/dt² + Kq = 0; Kφ = ω²Mφ",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Lineare Schwingungen",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "M",
+        "bedeutung": "Massenmatrix",
+        "einheit": "kg"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "Steifigkeitsmatrix",
+        "einheit": "N/m"
+      },
+      {
+        "symbol": "ω",
+        "bedeutung": "Eigenkreisfrequenz",
+        "einheit": "rad/s"
+      },
+      {
+        "symbol": "φ",
+        "bedeutung": "Schwingungsform",
+        "einheit": "variabel"
+      }
+    ],
+    "quellen": [
+      "MIT 8.09: Chapter 3, Vibrations and Oscillations"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/8-09-classical-mechanics-iii-fall-2014/aa6e7a8b4e0b5eeef24bce949d4fdb27_MIT8_09F14_Chapter_3.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/mehrfreiheitsgrad-schwingungen"
+  },
+  {
+    "slug": "hooke-gesetz-dreidimensional",
+    "name": "Dreidimensionales Hookesches Gesetz",
+    "latex": "\\varepsilon_x=\\frac{\\sigma_x-\\nu(\\sigma_y+\\sigma_z)}{E},\\quad\\gamma_{xy}=\\frac{\\tau_{xy}}G,\\quad G=\\frac E{2(1+\\nu)}",
+    "symbol": "εx = (σx−ν(σy+σz))/E",
+    "kategorie": "ingenieurwesen",
+    "kapitel": "ing-mechanik-werkstoffe",
+    "unterkategorie": "Lineare Elastizität",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "E",
+        "bedeutung": "Elastizitätsmodul",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "ν",
+        "bedeutung": "Poissonzahl",
+        "einheit": "1"
+      },
+      {
+        "symbol": "σ_x",
+        "bedeutung": "Normalspannung in x-Richtung",
+        "einheit": "Pa"
+      },
+      {
+        "symbol": "ε_x",
+        "bedeutung": "Normaldehnung in x-Richtung",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "Jönköping University Applied Mechanics,8.9 Hooke’s law in3D"
+    ],
+    "quellenLinks": [
+      "https://mechanics.ju.se/SolidMechanics/GeneralizedHookesLaw.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hooke-gesetz-dreidimensional"
+  }
+]
